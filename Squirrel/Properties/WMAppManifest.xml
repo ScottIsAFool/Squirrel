@@ -2,11 +2,11 @@
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-GB" />
   <Languages xmlns="">
-    <Language code="en" />
-    <Language code="en-GB" />
     <Language code="en-US" />
+    <Language code="fr" />
+    <Language code="qps-ploc" />
   </Languages>
-  <App xmlns="" ProductID="{da71ae87-cb84-4d8d-b8a1-9b91b7e937b1}" Title="Squirrel Beta" RuntimeType="Silverlight" Version="0.0.0.28" Genre="apps.normal" Author="Squirrel author" Description="Squirrel is a Pocket client (formerly ReadItLater) for Windows Phone 8" Publisher="Squirrel" PublisherID="{612f84e0-ee4b-4b86-b936-ef237095d795}">
+  <App xmlns="" ProductID="{da71ae87-cb84-4d8d-b8a1-9b91b7e937b1}" Title="Squirrel" RuntimeType="Silverlight" Version="1.0.0.28" Genre="apps.normal" Author="Squirrel author" Description="Squirrel is a Pocket client (formerly ReadItLater) for Windows Phone 8" Publisher="Squirrel" PublisherID="{612f84e0-ee4b-4b86-b936-ef237095d795}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
@@ -29,17 +29,12 @@
           <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title>Squirrel Beta</Title>
-          <BackContent>
-          </BackContent>
-          <BackBackgroundImageURI>
-          </BackBackgroundImageURI>
-          <BackTitle>
-          </BackTitle>
-          <DeviceLockImageURI>
-          </DeviceLockImageURI>
-          <HasLarge>
-          </HasLarge>
+          <Title>Squirrel</Title>
+          <BackContent></BackContent>
+          <BackBackgroundImageURI></BackBackgroundImageURI>
+          <BackTitle></BackTitle>
+          <DeviceLockImageURI></DeviceLockImageURI>
+          <HasLarge></HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>
