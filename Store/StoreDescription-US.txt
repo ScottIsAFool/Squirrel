@@ -1,0 +1,18 @@
+Squirrel is a fully featured Pocket (formerly Read It Later) client for Windows Phone 8.
+
+Trial version and paid version are *identical*, paid just shows support for the app.
+
+Features:
+- Offline reading
+- Manage articles (delete/archive/favorite)
+- Manage article tags
+- Live tile showing article counts
+- Different layouts for showing your articles (list/box)
+- Customizable article viewing: change font size, theme, justified text
+- Have Squirrel read out the article to you.
+
+FEEDBACK
+We love feedback, and it's what helps make the app better. If you have any feedback, do please contact us by email squirrelapp@outlook.com or on twitter @squirrelWP. 
+
+RATINGS
+We *really* love ratings, however, 1* ratings give us sad faces. If you feel that your 1* rating is justified, do please get in touch with us above and we can try and help resolve whatever issues you're having.

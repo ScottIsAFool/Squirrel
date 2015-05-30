@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <!-- Resource dictionary entries should be defined here. -->
+
+    <system:String x:Key="AppName">Squirrel</system:String>
+    <Color x:Key="SquirrelForegroundColor">#63ADD0</Color>
+    <SolidColorBrush x:Key="SquirrelForegroundBrush"
+                     Color="{StaticResource SquirrelForegroundColor}" />
+    <Color x:Key="SquirrelBackgroundColor">#086FA1</Color>
+    <SolidColorBrush x:Key="SquirrelBackgroundBrush"
+                     Color="{StaticResource SquirrelBackgroundColor}" />
+    <Color x:Key="SquirrelSubtleBackgroundColor">#48FFFFFF</Color>
+    <SolidColorBrush x:Key="SquirrelSubtleBackgroundBrush"
+                     Color="{StaticResource SquirrelSubtleBackgroundColor}" />
+    <Color x:Key="SquirrelAltBackgroundColor">#EAEAEA</Color>
+    <SolidColorBrush x:Key="SquirrelAltBackgroundBrush"
+                     Color="{StaticResource SquirrelAltBackgroundColor}" />
+    <Color x:Key="SquirrelAltForegroundColor">#505050</Color>
+    <SolidColorBrush x:Key="SquirrelAltForegroundBrush"
+                     Color="{StaticResource SquirrelAltForegroundColor}" />
+    <Color x:Key="SquirrelSelectedColor">#034769</Color>
+    <SolidColorBrush x:Key="SquirrelSelectedBrush"
+                     Color="{StaticResource SquirrelSelectedColor}" />
+    
+    <Color x:Key="SquirrelBrownBackgroundColor">#FFD7B294</Color>
+    <SolidColorBrush x:Key="SquirrelBrownBackgroundBrush"
+                     Color="{StaticResource SquirrelBrownBackgroundColor}" />
+    <Color x:Key="SquirrelBrownForegroundColor">#6C3100</Color>
+    <SolidColorBrush x:Key="SquirrelBrownForegroundBrush"
+                     Color="{StaticResource SquirrelBrownForegroundColor}" />
+    <Color x:Key="SquirrelBrownSubtleColor">#E26C3100</Color>
+    <SolidColorBrush x:Key="SquirrelBrownSubtleBrush"
+                     Color="{StaticResource SquirrelBrownSubtleColor}" />
+    
+    <SolidColorBrush x:Key="SquirrelLightBackgrounBrush"
+                     Color="WhiteSmoke"/>
+    <SolidColorBrush x:Key="SquirrelLightForegroundBrush"
+                     Color="{StaticResource SquirrelSelectedColor}"/>
+    <Color x:Key="SquirrelLightSubtleColor">#CC034769</Color>
+    <SolidColorBrush x:Key="SquirrelLightSubtleBrush"
+                     Color="{StaticResource SquirrelLightSubtleColor}"/>
+</ResourceDictionary>

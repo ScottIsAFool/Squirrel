@@ -1,0 +1,41 @@
+﻿<tiles:TileBase x:Class="Squirrel.Controls.Tiles.MediumTileFront"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                xmlns:tiles="clr-namespace:Squirrel.Controls.Tiles"
+                mc:Ignorable="d"
+                FontFamily="{StaticResource PhoneFontFamilyNormal}"
+                FontSize="{StaticResource PhoneFontSizeNormal}"
+                Foreground="{StaticResource PhoneForegroundBrush}"
+                Height="336"
+                Width="336">
+
+    <Grid x:Name="LayoutRoot"
+          Background="Black"
+          VerticalAlignment="Stretch"
+          HorizontalAlignment="Stretch">
+        <Viewbox VerticalAlignment="Stretch"
+                 HorizontalAlignment="Stretch">
+            <Grid VerticalAlignment="Center"
+                  HorizontalAlignment="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Image Source="/Assets/Tiles/IconicTileMediumTransparent.png"
+                       Width="159"
+                       Height="336"
+                       Stretch="UniformToFill"
+                       HorizontalAlignment="Center"/>
+                <TextBlock Visibility="Collapsed"
+                           Grid.Column="1"
+                           VerticalAlignment="Center"
+                           Style="{StaticResource PhoneTextTitle1Style}"
+                           FontWeight="Black"
+                           x:Name="CountText"
+                           FontSize="100" />
+            </Grid>
+        </Viewbox>
+    </Grid>
+</tiles:TileBase>
