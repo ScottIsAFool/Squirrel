@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Globalization;
 using System.Threading;
 using System.Windows;
 using System.Windows.Markup;
@@ -75,6 +76,7 @@ namespace Squirrel
         /// </summary>
         public App()
         {
+            //Thread.CurrentThread.CurrentUICulture = new CultureInfo("qps-ploc");
             _logger = new WPLogger(typeof(App));
 
             // Global handler for uncaught exceptions.

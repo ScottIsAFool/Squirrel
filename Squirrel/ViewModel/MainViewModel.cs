@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -166,10 +165,10 @@ namespace Squirrel.ViewModel
             {
                 return new List<string>
                 {
-                    "all items",
-                    "articles",
-                    "videos",
-                    "images"
+                    AppResources.LabelAllItems,
+                    AppResources.LabelArticles,
+                    AppResources.LabelVideos,
+                    AppResources.LabelImages
                 };
             }
         }
@@ -180,10 +179,10 @@ namespace Squirrel.ViewModel
             {
                 return new Dictionary<string, SortType>
                 {
-                    {"a-z", SortType.TitleAscending},
-                    {"z-a", SortType.TitleDescending},
-                    {"oldest", SortType.DateAscending},
-                    {"newest", SortType.DateDescending}
+                    {AppResources.LabelAtoZ, SortType.TitleAscending},
+                    {AppResources.LabelZtoA, SortType.TitleDescending},
+                    {AppResources.LabelOldest, SortType.DateAscending},
+                    {AppResources.LabelNewest, SortType.DateDescending}
                 };
             }
         }
@@ -438,10 +437,10 @@ namespace Squirrel.ViewModel
                     {
                         var question = new CustomMessageBox
                         {
-                            Message = "Are you sure you wish to delete this item from your Pocket?",
-                            Title = "Are you sure?",
-                            LeftButtonContent = "yes",
-                            RightButtonContent = "no",
+                            Message = AppResources.MessageDeleteItem,
+                            Title = AppResources.MessageTitleAreYouSure,
+                            LeftButtonContent = AppResources.LabelYes,
+                            RightButtonContent = AppResources.LabelNo,
                             Content = Utils.CreateDontShowCheckBox("DontPromptForDeletion")
                         };
                         var result = await question.ShowAsync();
@@ -451,7 +450,7 @@ namespace Squirrel.ViewModel
                         }
                     }
 
-                    SetProgressBar("Deleting items...");
+                    SetProgressBar(AppResources.SysTrayDeleting);
 
                     foreach (var item in selectedItems)
                     {
@@ -481,7 +480,7 @@ namespace Squirrel.ViewModel
 
                     var textbox = new RadTextBox
                     {
-                        Watermark = "enter link...",
+                        Watermark = AppResources.WatermarkEnterLink,
                         VerticalAlignment = VerticalAlignment.Top,
                         ActionButtonVisibility = Visibility.Collapsed,
                         InputScope = inputScope
@@ -489,9 +488,9 @@ namespace Squirrel.ViewModel
 
                     var messageBox = new CustomMessageBox
                     {
-                        LeftButtonContent = "add",
-                        RightButtonContent = "cancel",
-                        Title = "Add a link",
+                        LeftButtonContent = AppResources.AppBarAdd,
+                        RightButtonContent = AppResources.LabelCancel,
+                        Title = AppResources.MessageTitleAddALink,
                         Content = textbox,
                         Background = (SolidColorBrush)Application.Current.Resources["SquirrelAltBackgroundBrush"],
                         Foreground = (SolidColorBrush)Application.Current.Resources["SquirrelBackgroundBrush"],
@@ -523,13 +522,13 @@ namespace Squirrel.ViewModel
 
                     if (!Uri.IsWellFormedUriString(link, UriKind.RelativeOrAbsolute))
                     {
-                        App.ShowMessage("Invalid link, please try again");
+                        App.ShowMessage(AppResources.ErrorInvalidLink);
                         return;
                     }
 
                     try
                     {
-                        SetProgressBar("Adding...");
+                        SetProgressBar(AppResources.SysTrayAdding);
                         var response = await _pocketClient.Add(new Uri(link));
                         var item = response.Extend();
 
@@ -584,10 +583,10 @@ namespace Squirrel.ViewModel
                     {
                         var question = new CustomMessageBox
                         {
-                            Message = "Are you sure you wish to delete this item from your Pocket?",
-                            Title = "Are you sure?",
-                            LeftButtonContent = "yes",
-                            RightButtonContent = "no",
+                            Message = AppResources.MessageDeleteItem,
+                            Title = AppResources.MessageTitleAreYouSure,
+                            LeftButtonContent = AppResources.LabelYes,
+                            RightButtonContent = AppResources.LabelNo,
                             Content = Utils.CreateDontShowCheckBox("DontPromptForDeletion")
                         };
                         var result = await question.ShowAsync();
@@ -654,7 +653,7 @@ namespace Squirrel.ViewModel
                         return;
                     }
 
-                    SetProgressBar("Updating tags...");
+                    SetProgressBar(AppResources.SysTraypUpdatingTags);
 
                     try
                     {
@@ -678,7 +677,7 @@ namespace Squirrel.ViewModel
 
                         Messenger.Default.Send(new NotificationMessage(Constants.Messages.CloseTagsMsg));
 
-                        App.ShowMessage("Tags updated");
+                        App.ShowMessage(AppResources.MessageTagsUpdated);
                     }
                     catch (PocketException ex)
                     {
@@ -747,7 +746,7 @@ namespace Squirrel.ViewModel
                         return;
                     }
 
-                    SetProgressBar(item.IsArchive ? "Restoring..." : "Archiving...");
+                    SetProgressBar(item.IsArchive ? AppResources.SysTrayRestoring : AppResources.SysTrayArchiving);
 
                     await item.ArchiveItem(_pocketClient, Log, CacheService.Current);
 
@@ -844,7 +843,7 @@ namespace Squirrel.ViewModel
                 return;
             }
 
-            SetProgressBar(isArchive ? "Archiving..." : "Removing from archive...");
+            SetProgressBar(isArchive ? AppResources.SysTrayArchiving :AppResources.SysTrayRemovingFromArchive);
 
             if (isArchive)
             {
@@ -950,7 +949,7 @@ namespace Squirrel.ViewModel
 
         private async Task SortItems()
         {
-            SetProgressBar("Sorting...");
+            SetProgressBar(AppResources.SysTraySorting);
             var sort = SelectedSortType.Value;
             switch (SelectedIndex)
             {
@@ -1020,7 +1019,7 @@ namespace Squirrel.ViewModel
         {
             AuthenticationService.Current.SetAccessToken(_pocketClient);
 
-            SetProgressBar("Loading items...");
+            SetProgressBar(AppResources.SysTrayLoadingItems);
 
             if (AvailableTags.IsNullOrEmpty())
             {
@@ -1265,7 +1264,7 @@ namespace Squirrel.ViewModel
             }
 
             var result = false;
-            SetProgressBar("Getting queued items...");
+            SetProgressBar(AppResources.SysTrayGettingQueuedItems);
 
             try
             {
@@ -1402,7 +1401,7 @@ namespace Squirrel.ViewModel
             }
 
             var result = false;
-            SetProgressBar("Getting archived items...");
+            SetProgressBar(AppResources.SysTrayGettingArchivedItems);
 
             try
             {

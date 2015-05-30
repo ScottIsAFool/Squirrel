@@ -7,6 +7,7 @@ using PocketWP;
 using ScottIsAFool.WindowsPhone.Extensions;
 using ScottIsAFool.WindowsPhone.ViewModel;
 using Squirrel.Extensions;
+using Squirrel.Resources;
 using Squirrel.Services;
 
 namespace Squirrel.ViewModel
@@ -54,11 +55,11 @@ namespace Squirrel.ViewModel
 
                     if (!Uri.IsWellFormedUriString(PocketDataItem.Uri, UriKind.RelativeOrAbsolute))
                     {
-                        App.ShowMessage("Invalid link, please try again");
+                        App.ShowMessage(AppResources.ErrorInvalidLink);
                         return;
                     }
 
-                    SetProgressBar("Adding...");
+                    SetProgressBar(AppResources.SysTrayAdding);
 
                     try
                     {

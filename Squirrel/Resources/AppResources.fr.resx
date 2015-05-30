@@ -122,43 +122,160 @@
     <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
   </data>
   <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
+    <value>fr</value>
     <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
   </data>
   
   
   
-  <data name="LabelAuthorisingHeader" xml:space="preserve">
-    <value>authorizing</value>
-  </data>
-  <data name="LabelNoFavouritesAdded" xml:space="preserve">
-    <value>No favorites have been added</value>
-  </data>
-  <data name="SysTrayGettingFavourites" xml:space="preserve">
-    <value>Getting favorites...</value>
-  </data>
-  <data name="LabelFavourite" xml:space="preserve">
-    <value>favorite</value>
-  </data>
-  <data name="LabelUnfavourite" xml:space="preserve">
-    <value>unfavorite</value>
-  </data>
-  <data name="SysTrayAddingToFavourites" xml:space="preserve">
-    <value>Adding to favorites...</value>
-  </data>
-  <data name="SysTrayRemovingFromFavourites" xml:space="preserve">
-    <value>Removing from favorites...</value>
-  </data>
-  <data name="LabelPhoneAccentColour" xml:space="preserve">
-    <value>Phone accent color</value>
-  </data>
-  <data name="LabelSquirrelAccentColour" xml:space="preserve">
-    <value>Squirrel accent color (yellow)</value>
-  </data>
-  <data name="LabelTileColour" xml:space="preserve">
-    <value>Tile color</value>
-  </data>
-  <data name="LabelFavourites" xml:space="preserve">
-    <value>Favorites</value>
-  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </root>

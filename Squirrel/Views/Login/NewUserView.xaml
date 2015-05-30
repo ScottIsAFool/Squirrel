@@ -27,7 +27,7 @@
         <behaviours:SquirrelApplicationBarBehaviour>
             <behaviours:SquirrelApplicationBarBehaviour.Buttons>
                 <behaviors:ApplicationBarIconButton IconUri="/Icons/check.png"
-                                                    Text="create user"
+                                                    Text="{Binding LocalizedResources.AppBarCreateUser, Source={StaticResource LocalizedStrings}}"
                                                     IsEnabled="{Binding CanCreateUser}"
                                                     Command="{Binding CreateUserCommand}"/>
             </behaviours:SquirrelApplicationBarBehaviour.Buttons>
@@ -65,7 +65,7 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <controls:SquirrelLogoHeader Text="create new user"
+        <controls:SquirrelLogoHeader Text="{Binding LocalizedResources.LabelCreateNewUser, Source={StaticResource LocalizedStrings}}"
                                      Grid.Row="0" />
 
         <!--ContentPanel - place additional content here-->
@@ -78,18 +78,18 @@
                            Visibility="{Binding AlmostDone, Converter={StaticResource NullVisibilityConverter}}"
                            TextWrapping="Wrap"/>
                 <telerikPrimitives:RadTextBox Text="{Binding EmailAddress, Mode=TwoWay}"
-                                              Watermark="enter an email address"
+                                              Watermark="{Binding LocalizedResources.WatermarkEmailAddress, Source={StaticResource LocalizedStrings}}"
                                               HideWatermarkOnFocus="True"
                                               InputScope="EmailUserName"
-                                              Header="Email address"/>
+                                              Header="{Binding LocalizedResources.HeaderEmailAddress, Source={StaticResource LocalizedStrings}}"/>
                 <telerikPrimitives:RadTextBox Text="{Binding Username, Mode=TwoWay}"
-                                              Watermark="enter a username"
-                                              HideWatermarkOnFocus="True" 
-                                              Header="Username"/>
+                                              Watermark="{Binding LocalizedResources.WatermarkUsername, Source={StaticResource LocalizedStrings}}"
+                                              HideWatermarkOnFocus="True"
+                                              Header="{Binding LocalizedResources.HeaderUsername, Source={StaticResource LocalizedStrings}}"/>
                 <telerikPrimitives:RadPasswordBox Password="{Binding Password, Mode=TwoWay}"
-                                                  Watermark="enter a password"
+                                                  Watermark="{Binding LocalizedResources.WatermarkPassword, Source={StaticResource LocalizedStrings}}"
                                                   HideWatermarkOnFocus="True"
-                                                  Header="Password">
+                                                  Header="{Binding LocalizedResources.HeaderPassword, Source={StaticResource LocalizedStrings}}">
                     <i:Interaction.Behaviors>
                         <behaviours:EnterKeyHandler EnterKeyAction="ExecuteCommand"
                                                     CommandString="CreateUserCommand"/>

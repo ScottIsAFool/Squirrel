@@ -30,7 +30,7 @@
                            VerticalAlignment="Top"
                            TextWrapping="Wrap"
                            Style="{StaticResource PhoneTextTitle2Style}" />
-                <HyperlinkButton Content="refresh?"
+                <HyperlinkButton Content="{Binding LocalizedResources.LabelRefresh, Source={StaticResource LocalizedStrings}}"
                                  Command="{Binding Main.RefreshCommand, Source={StaticResource Locator}}"/>
             </StackPanel>
         </DataTemplate>
@@ -91,43 +91,43 @@
         <cimbalino:MultiApplicationBarBehavior SelectedIndex="{Binding SelectedAppBarIndex}">
             <behaviours:SquirrelApplicationBar>
                 <behaviours:SquirrelApplicationBar.MenuItems>
-                    <cimbalino:ApplicationBarMenuItem Text="advanced add"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarAdvancedAdd, Source={StaticResource LocalizedStrings}}"
                                                       Command="{Binding NavigateToAdd}" />
-                    <cimbalino:ApplicationBarMenuItem Text="settings"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarSettings, Source={StaticResource LocalizedStrings}}"
                                                       Command="{Binding NavigateToSettings}" />
-                    <cimbalino:ApplicationBarMenuItem Text="sign out"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarSignOut, Source={StaticResource LocalizedStrings}}"
                                                       Command="{Binding SignOutCommand}" />
-                    <cimbalino:ApplicationBarMenuItem Text="about"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarAbout, Source={StaticResource LocalizedStrings}}"
                                                       Command="{Binding NavigateToAbout}" />
                 </behaviours:SquirrelApplicationBar.MenuItems>
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/add.png"
-                                                    Text="quick add"
+                                                    Text="{Binding LocalizedResources.AppBarQuickAdd, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding QuickAddCommand}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/feature.search.png"
-                                                    Text="search"
+                                                    Text="{Binding LocalizedResources.AppBarSearch, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding NavigateToSearchCommand}" />
             </behaviours:SquirrelApplicationBar>
 
             <!--Queued multi-select-->
             <behaviours:SquirrelApplicationBar IsMenuEnabled="True">
                 <behaviours:SquirrelApplicationBar.MenuItems>
-                    <cimbalino:ApplicationBarMenuItem Text="select all"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarSelectAll, Source={StaticResource LocalizedStrings}}"
                                                       Click="SelectAllClick" />
-                    <cimbalino:ApplicationBarMenuItem Text="unselect all"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarUnselectAll, Source={StaticResource LocalizedStrings}}"
                                                       Click="UnselectAllClick" />
                 </behaviours:SquirrelApplicationBar.MenuItems>
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.star.add.png"
-                                                    Text="add"
+                                                    Text="{Binding LocalizedResources.AppBarAdd, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding AddToFavouritesQueuedCommand}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.cabinet.files.variant.png"
-                                                    Text="archive"
+                                                    Text="{Binding LocalizedResources.AppBarArchive, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding ArchiveQueuedCommand}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.delete.rest.png"
-                                                    Text="delete"
+                                                    Text="{Binding LocalizedResources.AppBarDelete, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding DeleteItemsCommand}"
                                                     CommandParameter="{Binding SelectedItemsRecent}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.tag.label.png"
-                                                    Text="tags"
+                                                    Text="{Binding LocalizedResources.AppBarTags, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding MultiTagsCommand}"
                                                     CommandParameter="{Binding SelectedItemsRecent}" />
             </behaviours:SquirrelApplicationBar>
@@ -135,23 +135,23 @@
             <!--Favourites multi-select-->
             <behaviours:SquirrelApplicationBar IsMenuEnabled="True">
                 <behaviours:SquirrelApplicationBar.MenuItems>
-                    <cimbalino:ApplicationBarMenuItem Text="select all"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarSelectAll, Source={StaticResource LocalizedStrings}}"
                                                       Click="SelectAllClick" />
-                    <cimbalino:ApplicationBarMenuItem Text="unselect all"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarUnselectAll, Source={StaticResource LocalizedStrings}}"
                                                       Click="UnselectAllClick" />
                 </behaviours:SquirrelApplicationBar.MenuItems>
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.star.minus.png"
-                                                    Text="remove"
+                                                    Text="{Binding LocalizedResources.AppBarRemove, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding RemoveFromFavouritesCommand}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.cabinet.files.variant.png"
-                                                    Text="archive"
+                                                    Text="{Binding LocalizedResources.AppBarArchive, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding ArchiveFavouritesCommand}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.delete.rest.png"
-                                                    Text="delete"
+                                                    Text="{Binding LocalizedResources.AppBarDelete, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding DeleteItemsCommand}"
                                                     CommandParameter="{Binding SelectedItemsFavourite}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.tag.label.png"
-                                                    Text="tags"
+                                                    Text="{Binding LocalizedResources.AppBarTags, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding MultiTagsCommand}"
                                                     CommandParameter="{Binding SelectedItemsFavourite}" />
             </behaviours:SquirrelApplicationBar>
@@ -159,23 +159,23 @@
             <!--Archived multi-select-->
             <behaviours:SquirrelApplicationBar IsMenuEnabled="True">
                 <behaviours:SquirrelApplicationBar.MenuItems>
-                    <cimbalino:ApplicationBarMenuItem Text="select all"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarSelectAll, Source={StaticResource LocalizedStrings}}"
                                                       Click="SelectAllClick" />
-                    <cimbalino:ApplicationBarMenuItem Text="unselect all"
+                    <cimbalino:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarUnselectAll, Source={StaticResource LocalizedStrings}}"
                                                       Click="UnselectAllClick" />
                 </behaviours:SquirrelApplicationBar.MenuItems>
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.star.add.png"
-                                                    Text="add"
+                                                    Text="{Binding LocalizedResources.AppBarAdd, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding AddToFavouritesArchivedCommand}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.cabinet.variant.png"
-                                                    Text="unarchive"
+                                                    Text="{Binding LocalizedResources.AppBarUnarchive, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding UnArchiveCommand}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.delete.rest.png"
-                                                    Text="delete"
+                                                    Text="{Binding LocalizedResources.AppBarDelete, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding DeleteItemsCommand}"
                                                     CommandParameter="{Binding SelectedItemsArchive}" />
                 <cimbalino:ApplicationBarIconButton IconUri="/Icons/appbar.tag.label.png"
-                                                    Text="tags"
+                                                    Text="{Binding LocalizedResources.AppBarTags, Source={StaticResource LocalizedStrings}}"
                                                     Command="{Binding MultiTagsCommand}"
                                                     CommandParameter="{Binding SelectedItemsArchive}" />
             </behaviours:SquirrelApplicationBar>
@@ -257,7 +257,7 @@
                 <DataTemplate />
             </phone:Pivot.HeaderTemplate>
             <phone:PivotItem>
-                <telerikPrimitives:RadDataBoundListBox EmptyContent="No queued items here"
+                <telerikPrimitives:RadDataBoundListBox EmptyContent="{Binding LocalizedResources.LabelEmptyContentQueued, Source={StaticResource LocalizedStrings}}"
                                                        EmptyContentDisplayMode="Always"
                                                        telerik:InteractionEffectManager.IsInteractionEnabled="True"
                                                        ItemsSource="{Binding RecentItems}"
@@ -343,7 +343,7 @@
                 </telerikPrimitives:RadDataBoundListBox>
             </phone:PivotItem>
             <phone:PivotItem>
-                <telerikPrimitives:RadDataBoundListBox EmptyContent="No archived items here"
+                <telerikPrimitives:RadDataBoundListBox EmptyContent="{Binding LocalizedResources.LabelEmptyContentArchived, Source={StaticResource LocalizedStrings}}"
                                                        EmptyContentDisplayMode="Always"
                                                        telerik:InteractionEffectManager.IsInteractionEnabled="True"
                                                        ItemsSource="{Binding ArchivedItems}"
@@ -417,14 +417,14 @@
                                     SelectedItem="{Binding SelectedFilter, Mode=TwoWay}"
                                     Style="{StaticResource FilterStyle}"
                                     ExpansionMode="FullScreenOnly"
-                                    FullModeHeader="ITEMS TO SHOW"
+                                    FullModeHeader="{Binding LocalizedResources.HeaderItemsToShow, Source={StaticResource LocalizedStrings}}"
                                     HorizontalAlignment="Left" />
 
                 <toolkit:ListPicker ItemsSource="{Binding SortTypes}"
                                     SelectedItem="{Binding SelectedSortType, Mode=TwoWay}"
                                     Style="{StaticResource FilterStyle}"
                                     ExpansionMode="FullScreenOnly"
-                                    FullModeHeader="SORT ITEMS BY"
+                                    FullModeHeader="{Binding LocalizedResources.HeaderSortItemsBy, Source={StaticResource LocalizedStrings}}"
                                     HorizontalAlignment="Right"
                                     HorizontalContentAlignment="Right"
                                     DisplayMemberPath="Key">

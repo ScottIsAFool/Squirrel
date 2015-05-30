@@ -2,6 +2,7 @@
 using Cimbalino.Phone.Toolkit.Helpers;
 using Microsoft.Phone.Tasks;
 using ScottIsAFool.WindowsPhone.Logging;
+using Squirrel.Resources;
 
 namespace Squirrel.Views
 {
@@ -14,7 +15,7 @@ namespace Squirrel.Views
             var app = ApplicationManifest.Current.App;
             AppName.Text = app.Title;
             VersionNumber.Text = app.Version;
-            DescriptionText.Text = app.Description;
+            DescriptionText.Text = AppResources.LabelAppShortDescription;
         }
 
         private void SupportButton_OnClick(object sender, RoutedEventArgs e)

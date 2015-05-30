@@ -167,4 +167,421 @@
   <data name="LabelFavourites" xml:space="preserve">
     <value>Favourites</value>
   </data>
+  <data name="AppBarAbout" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="AppBarAdvancedAdd" xml:space="preserve">
+    <value>advanced add</value>
+  </data>
+  <data name="AppBarQuickAdd" xml:space="preserve">
+    <value>quick add</value>
+  </data>
+  <data name="AppBarSearch" xml:space="preserve">
+    <value>search</value>
+  </data>
+  <data name="AppBarSettings" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="AppBarSignOut" xml:space="preserve">
+    <value>sign out</value>
+  </data>
+  <data name="LabelRefresh" xml:space="preserve">
+    <value>Refresh?</value>
+  </data>
+  <data name="AppBarAdd" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="AppBarAddItem" xml:space="preserve">
+    <value>add item</value>
+  </data>
+  <data name="AppBarArchive" xml:space="preserve">
+    <value>archive</value>
+  </data>
+  <data name="AppBarCreateUser" xml:space="preserve">
+    <value>create user</value>
+  </data>
+  <data name="AppBarDelete" xml:space="preserve">
+    <value>delete</value>
+  </data>
+  <data name="AppBarFontSize" xml:space="preserve">
+    <value>font size</value>
+  </data>
+  <data name="AppBarOpenLink" xml:space="preserve">
+    <value>open link in internet explorer</value>
+  </data>
+  <data name="AppBarReadAloud" xml:space="preserve">
+    <value>read aloud</value>
+  </data>
+  <data name="AppBarRemove" xml:space="preserve">
+    <value>remove</value>
+  </data>
+  <data name="AppBarSelectAll" xml:space="preserve">
+    <value>select all</value>
+  </data>
+  <data name="AppBarSwitchView" xml:space="preserve">
+    <value>switch view</value>
+  </data>
+  <data name="AppBarTags" xml:space="preserve">
+    <value>tags</value>
+  </data>
+  <data name="AppBarTheme" xml:space="preserve">
+    <value>theme</value>
+  </data>
+  <data name="AppBarUnarchive" xml:space="preserve">
+    <value>unarchive</value>
+  </data>
+  <data name="AppBarUnselectAll" xml:space="preserve">
+    <value>unselect all</value>
+  </data>
+  <data name="HeaderArticle" xml:space="preserve">
+    <value>ARTICLE</value>
+  </data>
+  <data name="HeaderClearData" xml:space="preserve">
+    <value>CLEAR DATA</value>
+  </data>
+  <data name="HeaderDefaultArticleSorting" xml:space="preserve">
+    <value>Default article sorting</value>
+  </data>
+  <data name="HeaderDefaultCacheTimeout" xml:space="preserve">
+    <value>Default cache timeout (minutes)</value>
+  </data>
+  <data name="HeaderDefaultFontSize" xml:space="preserve">
+    <value>Default font size</value>
+  </data>
+  <data name="HeaderDefaultReadingTheme" xml:space="preserve">
+    <value>Default reading theme</value>
+  </data>
+  <data name="HeaderDefaultView" xml:space="preserve">
+    <value>Default view</value>
+  </data>
+  <data name="HeaderDownloadInBackground" xml:space="preserve">
+    <value>Download content when the app is running</value>
+  </data>
+  <data name="HeaderDownloadWhenNotRunning" xml:space="preserve">
+    <value>Download content when the app isn't running</value>
+  </data>
+  <data name="HeaderDownloadWifi" xml:space="preserve">
+    <value>Only download on wifi</value>
+  </data>
+  <data name="HeaderEmailAddress" xml:space="preserve">
+    <value>Email address</value>
+  </data>
+  <data name="HeaderGeneral" xml:space="preserve">
+    <value>GENERAL</value>
+  </data>
+  <data name="HeaderItemsToShow" xml:space="preserve">
+    <value>ITEMS TO SHOW</value>
+  </data>
+  <data name="HeaderLink" xml:space="preserve">
+    <value>Link (Required)</value>
+  </data>
+  <data name="HeaderOffline" xml:space="preserve">
+    <value>OFFLINE</value>
+  </data>
+  <data name="HeaderPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="HeaderSortItemsBy" xml:space="preserve">
+    <value>SORT ITEMS BY</value>
+  </data>
+  <data name="HeaderTags" xml:space="preserve">
+    <value>Tags (comma separated)</value>
+  </data>
+  <data name="HeaderTile" xml:space="preserve">
+    <value>TILE</value>
+  </data>
+  <data name="HeaderTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="HeaderTweetId" xml:space="preserve">
+    <value>Tweet ID</value>
+  </data>
+  <data name="HeaderUsername" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="HeaderWhatToSearch" xml:space="preserve">
+    <value>What to search</value>
+  </data>
+  <data name="LabelAbout" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="LabelAddLink" xml:space="preserve">
+    <value>add link</value>
+  </data>
+  <data name="LabelArticles" xml:space="preserve">
+    <value>articles</value>
+  </data>
+  <data name="LabelBox" xml:space="preserve">
+    <value>Box</value>
+  </data>
+  <data name="LabelClearCache" xml:space="preserve">
+    <value>clear cache</value>
+  </data>
+  <data name="LabelClearOfflineFiles" xml:space="preserve">
+    <value>clear offline files</value>
+  </data>
+  <data name="LabelConnectWithPocket" xml:space="preserve">
+    <value>connect with Pocket</value>
+  </data>
+  <data name="LabelCreateNewUser" xml:space="preserve">
+    <value>create new user</value>
+  </data>
+  <data name="LabelDeletingPrompt" xml:space="preserve">
+    <value>Don't prompt when deleting items</value>
+  </data>
+  <data name="LabelEmptyContentArchived" xml:space="preserve">
+    <value>No archived items here</value>
+  </data>
+  <data name="LabelEmptyContentQueued" xml:space="preserve">
+    <value>No queued items here</value>
+  </data>
+  <data name="LabelEmptySearchResults" xml:space="preserve">
+    <value>No items found</value>
+  </data>
+  <data name="LabelFinished" xml:space="preserve">
+    <value>finished</value>
+  </data>
+  <data name="LabelJustifyArticleContent" xml:space="preserve">
+    <value>Justify article content</value>
+  </data>
+  <data name="LabelLarge" xml:space="preserve">
+    <value>large</value>
+  </data>
+  <data name="LabelList" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="LabelLogin" xml:space="preserve">
+    <value>login</value>
+  </data>
+  <data name="LabelLoginText" xml:space="preserve">
+    <value>In order to use this app, you must sign into your Pocket account, if you don't have one, please click one of the sign up options.</value>
+  </data>
+  <data name="LabelMedium" xml:space="preserve">
+    <value>medium</value>
+  </data>
+  <data name="LabelNotArticle" xml:space="preserve">
+    <value>This doesn't appear to be an article so might not display properly.</value>
+  </data>
+  <data name="LabelOffline" xml:space="preserve">
+    <value>offline</value>
+  </data>
+  <data name="LabelOfflineBackground" xml:space="preserve">
+    <value>Similarly, we would also like to download content while the app is running.</value>
+  </data>
+  <data name="LabelOfflineBestExperience" xml:space="preserve">
+    <value>In order to give the best offline experience, it can be best to have some of your articles downloaded even when the app isn't running.</value>
+  </data>
+  <data name="LabelOfflineSettings" xml:space="preserve">
+    <value>All of these can be changed later in the app settings.</value>
+  </data>
+  <data name="LabelOfflineWifi" xml:space="preserve">
+    <value>Some articles may have a lot of images, because of this, you may only want to download offline content when connected to a wifi connection.</value>
+  </data>
+  <data name="LabelPocketTerms" xml:space="preserve">
+    <value>Pocket terms of service</value>
+  </data>
+  <data name="LabelRateApp" xml:space="preserve">
+    <value>rate this app</value>
+  </data>
+  <data name="LabelRefreshWhenAppOpens" xml:space="preserve">
+    <value>Refresh when app opens</value>
+  </data>
+  <data name="LabelSearch" xml:space="preserve">
+    <value>search</value>
+  </data>
+  <data name="LabelSearchInArticles" xml:space="preserve">
+    <value>Search in article links</value>
+  </data>
+  <data name="LabelSendLogs" xml:space="preserve">
+    <value>send logs</value>
+  </data>
+  <data name="LabelSettings" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="LabelShowCountsOnTiles" xml:space="preserve">
+    <value>Show counts on tiles</value>
+  </data>
+  <data name="LabelSignUpFacebook" xml:space="preserve">
+    <value>join now using Facebook</value>
+  </data>
+  <data name="LabelSignUpManually" xml:space="preserve">
+    <value>Sign up manually</value>
+  </data>
+  <data name="LabelSignUpText" xml:space="preserve">
+    <value>Click one of the two options below to create your account wtih Pocket</value>
+  </data>
+  <data name="LabelSmall" xml:space="preserve">
+    <value>small</value>
+  </data>
+  <data name="LabelTags" xml:space="preserve">
+    <value>tags</value>
+  </data>
+  <data name="LabelTechSupport" xml:space="preserve">
+    <value>technical support/feedback email</value>
+  </data>
+  <data name="WatermarkEmailAddress" xml:space="preserve">
+    <value>enter an email address...</value>
+  </data>
+  <data name="WatermarkEnterLink" xml:space="preserve">
+    <value>enter link...</value>
+  </data>
+  <data name="WatermarkEnterTags" xml:space="preserve">
+    <value>enter tags...</value>
+  </data>
+  <data name="WatermarkEnterTitle" xml:space="preserve">
+    <value>enter title...</value>
+  </data>
+  <data name="WatermarkEnterTweetId" xml:space="preserve">
+    <value>enter tweet id...</value>
+  </data>
+  <data name="WatermarkPassword" xml:space="preserve">
+    <value>enter a password...</value>
+  </data>
+  <data name="WatermarkSearchInArticles" xml:space="preserve">
+    <value>search in titles and links...</value>
+  </data>
+  <data name="WatermarkSearchInTags" xml:space="preserve">
+    <value>search in tags...</value>
+  </data>
+  <data name="WatermarkUsername" xml:space="preserve">
+    <value>enter a username...</value>
+  </data>
+  <data name="ErrorInvalidLink" xml:space="preserve">
+    <value>Invalid link, please try again</value>
+  </data>
+  <data name="ErrorAccountFailure" xml:space="preserve">
+    <value>Unfortunately your account wasn't created at this time, please try again later.</value>
+  </data>
+  <data name="ErrorCreatingAccount" xml:space="preserve">
+    <value>Problem creating user, please try again later</value>
+  </data>
+  <data name="ErrorFacebookToken" xml:space="preserve">
+    <value>Unfortunately that Facebook access token has expired</value>
+  </data>
+  <data name="ErrorTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="InfoImageSaved" xml:space="preserve">
+    <value>Image saved</value>
+  </data>
+  <data name="InfoSuccessfulAccount" xml:space="preserve">
+    <value>Account created successfully, you will now need to verify your email address. Not doing so may limit how much you can do in the app from this point. Once that's done, please connect the app to Pocket</value>
+  </data>
+  <data name="LabelAllItems" xml:space="preserve">
+    <value>all items</value>
+  </data>
+  <data name="LabelAlmostDone" xml:space="preserve">
+    <value>Almost there, {0}, just a few more details.</value>
+  </data>
+  <data name="LabelAtoZ" xml:space="preserve">
+    <value>a-z</value>
+  </data>
+  <data name="LabelCancel" xml:space="preserve">
+    <value>cancel</value>
+  </data>
+  <data name="LabelImages" xml:space="preserve">
+    <value>images</value>
+  </data>
+  <data name="LabelNewest" xml:space="preserve">
+    <value>newest</value>
+  </data>
+  <data name="LabelNo" xml:space="preserve">
+    <value>no</value>
+  </data>
+  <data name="LabelOldest" xml:space="preserve">
+    <value>oldest</value>
+  </data>
+  <data name="LabelVideos" xml:space="preserve">
+    <value>videos</value>
+  </data>
+  <data name="LabelYes" xml:space="preserve">
+    <value>yes</value>
+  </data>
+  <data name="LabelZtoA" xml:space="preserve">
+    <value>z-a</value>
+  </data>
+  <data name="MessageAccountTitle" xml:space="preserve">
+    <value>Account creation</value>
+  </data>
+  <data name="MessageDeleteItem" xml:space="preserve">
+    <value>Are you sure you wish to delete this item from your Pocket?</value>
+  </data>
+  <data name="MessageTitleAddALink" xml:space="preserve">
+    <value>Add a link</value>
+  </data>
+  <data name="MessageTitleAreYouSure" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+  <data name="SysTrayAdding" xml:space="preserve">
+    <value>Adding...</value>
+  </data>
+  <data name="SysTrayArchiving" xml:space="preserve">
+    <value>Archiving...</value>
+  </data>
+  <data name="SysTrayDeleting" xml:space="preserve">
+    <value>Deleting...</value>
+  </data>
+  <data name="SysTrayGettingAccessToken" xml:space="preserve">
+    <value>Getting your access token...</value>
+  </data>
+  <data name="SysTrayGettingArticle" xml:space="preserve">
+    <value>Getting article...</value>
+  </data>
+  <data name="SysTrayRegisteringNewAccount" xml:space="preserve">
+    <value>Registering new account...</value>
+  </data>
+  <data name="SysTrayRemovingFromArchive" xml:space="preserve">
+    <value>Removing from archive...</value>
+  </data>
+  <data name="SysTraySendingToPocket" xml:space="preserve">
+    <value>Sending you to Pocket...</value>
+  </data>
+  <data name="SysTrayTalkingToFacebook" xml:space="preserve">
+    <value>Talking to Facebook</value>
+  </data>
+  <data name="SysTrayTalkingToPocket" xml:space="preserve">
+    <value>Preparing to talk to Pocket...</value>
+  </data>
+  <data name="LabelAgentDescription" xml:space="preserve">
+    <value>Downloads any pending articles in the background.</value>
+  </data>
+  <data name="LabelAppShortDescription" xml:space="preserve">
+    <value>Squirrel is a Pocket client (formerly ReadItLater) for Windows Phone 8</value>
+  </data>
+  <data name="LabelResultsFor" xml:space="preserve">
+    <value>results for {0}</value>
+  </data>
+  <data name="MessageCacheCleared" xml:space="preserve">
+    <value>Cache cleared</value>
+  </data>
+  <data name="MessageDeleteOfflineFiles" xml:space="preserve">
+    <value>Are you sure you wish to delete the offline files?</value>
+  </data>
+  <data name="MessageOfflineFilesClear" xml:space="preserve">
+    <value>Offline files cleared</value>
+  </data>
+  <data name="MessageTagsUpdated" xml:space="preserve">
+    <value>Tags updated</value>
+  </data>
+  <data name="SysTrayGettingArchivedItems" xml:space="preserve">
+    <value>Getting archived items...</value>
+  </data>
+  <data name="SysTrayGettingQueuedItems" xml:space="preserve">
+    <value>Getting queued items...</value>
+  </data>
+  <data name="SysTrayLoadingItems" xml:space="preserve">
+    <value>Loading items...</value>
+  </data>
+  <data name="SysTraypUpdatingTags" xml:space="preserve">
+    <value>Updating tags...</value>
+  </data>
+  <data name="SysTrayRestoring" xml:space="preserve">
+    <value>Restoring...</value>
+  </data>
+  <data name="SysTraySearching" xml:space="preserve">
+    <value>Searching...</value>
+  </data>
+  <data name="SysTraySorting" xml:space="preserve">
+    <value>Sorting...</value>
+  </data>
 </root>

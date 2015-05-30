@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-GB" target-language="fr" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="Squirrel" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="2.1.2010.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/ResourceFlowDirection" translate="yes" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note></trans-unit>
+        <trans-unit id="Resx/ResourceLanguage" translate="yes" xml:space="preserve">
+          <source>en</source>
+          <target state="translated">fr</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note></trans-unit>
+        <trans-unit id="Resx/ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="new">MY APPLICATION</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarButtonText" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="new">add</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarMenuItemText" translate="yes" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="new">Menu Item</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelAuthorisingHeader" translate="yes" xml:space="preserve">
+          <source>authorising</source>
+          <target state="new">authorising</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelNoFavouritesAdded" translate="yes" xml:space="preserve">
+          <source>No favourites have been added</source>
+          <target state="new">No favourites have been added</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayGettingFavourites" translate="yes" xml:space="preserve">
+          <source>Getting favourites...</source>
+          <target state="new">Getting favourites...</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelFavourite" translate="yes" xml:space="preserve">
+          <source>favourite</source>
+          <target state="new">favourite</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelUnfavourite" translate="yes" xml:space="preserve">
+          <source>unfavourite</source>
+          <target state="new">unfavourite</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayAddingToFavourites" translate="yes" xml:space="preserve">
+          <source>Adding to favourites...</source>
+          <target state="new">Adding to favourites...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayRemovingFromFavourites" translate="yes" xml:space="preserve">
+          <source>Removing from favourites...</source>
+          <target state="new">Removing from favourites...</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelPhoneAccentColour" translate="yes" xml:space="preserve">
+          <source>Phone accent colour</source>
+          <target state="new">Phone accent colour</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelSquirrelAccentColour" translate="yes" xml:space="preserve">
+          <source>Squirrel accent colour (yellow)</source>
+          <target state="new">Squirrel accent colour (yellow)</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelTileColour" translate="yes" xml:space="preserve">
+          <source>Tile colour</source>
+          <target state="new">Tile colour</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelFavourites" translate="yes" xml:space="preserve">
+          <source>Favourites</source>
+          <target state="new">Favourites</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarAbout" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="new">about</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarAdvancedAdd" translate="yes" xml:space="preserve">
+          <source>advanced add</source>
+          <target state="new">advanced add</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarQuickAdd" translate="yes" xml:space="preserve">
+          <source>quick add</source>
+          <target state="new">quick add</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarSearch" translate="yes" xml:space="preserve">
+          <source>search</source>
+          <target state="new">search</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarSettings" translate="yes" xml:space="preserve">
+          <source>settings</source>
+          <target state="new">settings</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarSignOut" translate="yes" xml:space="preserve">
+          <source>sign out</source>
+          <target state="new">sign out</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelRefresh" translate="yes" xml:space="preserve">
+          <source>Refresh?</source>
+          <target state="new">Refresh?</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarAdd" translate="yes" xml:space="preserve">
+          <source>add</source>
+          <target state="new">add</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarAddItem" translate="yes" xml:space="preserve">
+          <source>add item</source>
+          <target state="new">add item</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarArchive" translate="yes" xml:space="preserve">
+          <source>archive</source>
+          <target state="new">archive</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarCreateUser" translate="yes" xml:space="preserve">
+          <source>create user</source>
+          <target state="new">create user</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarDelete" translate="yes" xml:space="preserve">
+          <source>delete</source>
+          <target state="new">delete</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarFontSize" translate="yes" xml:space="preserve">
+          <source>font size</source>
+          <target state="new">font size</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarOpenLink" translate="yes" xml:space="preserve">
+          <source>open link in internet explorer</source>
+          <target state="new">open link in internet explorer</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarReadAloud" translate="yes" xml:space="preserve">
+          <source>read aloud</source>
+          <target state="new">read aloud</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarRemove" translate="yes" xml:space="preserve">
+          <source>remove</source>
+          <target state="new">remove</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarSelectAll" translate="yes" xml:space="preserve">
+          <source>select all</source>
+          <target state="new">select all</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarSwitchView" translate="yes" xml:space="preserve">
+          <source>switch view</source>
+          <target state="new">switch view</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarTags" translate="yes" xml:space="preserve">
+          <source>tags</source>
+          <target state="new">tags</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarTheme" translate="yes" xml:space="preserve">
+          <source>theme</source>
+          <target state="new">theme</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarUnarchive" translate="yes" xml:space="preserve">
+          <source>unarchive</source>
+          <target state="new">unarchive</target>
+        </trans-unit>
+        <trans-unit id="Resx/AppBarUnselectAll" translate="yes" xml:space="preserve">
+          <source>unselect all</source>
+          <target state="new">unselect all</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderArticle" translate="yes" xml:space="preserve">
+          <source>ARTICLE</source>
+          <target state="new">ARTICLE</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderClearData" translate="yes" xml:space="preserve">
+          <source>CLEAR DATA</source>
+          <target state="new">CLEAR DATA</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderDefaultArticleSorting" translate="yes" xml:space="preserve">
+          <source>Default article sorting</source>
+          <target state="new">Default article sorting</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderDefaultCacheTimeout" translate="yes" xml:space="preserve">
+          <source>Default cache timeout (minutes)</source>
+          <target state="new">Default cache timeout (minutes)</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderDefaultFontSize" translate="yes" xml:space="preserve">
+          <source>Default font size</source>
+          <target state="new">Default font size</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderDefaultReadingTheme" translate="yes" xml:space="preserve">
+          <source>Default reading theme</source>
+          <target state="new">Default reading theme</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderDefaultView" translate="yes" xml:space="preserve">
+          <source>Default view</source>
+          <target state="new">Default view</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderDownloadInBackground" translate="yes" xml:space="preserve">
+          <source>Download content when the app is running</source>
+          <target state="new">Download content when the app is running</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderDownloadWhenNotRunning" translate="yes" xml:space="preserve">
+          <source>Download content when the app isn't running</source>
+          <target state="new">Download content when the app isn't running</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderDownloadWifi" translate="yes" xml:space="preserve">
+          <source>Only download on wifi</source>
+          <target state="new">Only download on wifi</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderEmailAddress" translate="yes" xml:space="preserve">
+          <source>Email address</source>
+          <target state="new">Email address</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderGeneral" translate="yes" xml:space="preserve">
+          <source>GENERAL</source>
+          <target state="new">GENERAL</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderItemsToShow" translate="yes" xml:space="preserve">
+          <source>ITEMS TO SHOW</source>
+          <target state="new">ITEMS TO SHOW</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderLink" translate="yes" xml:space="preserve">
+          <source>Link (Required)</source>
+          <target state="new">Link (Required)</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderOffline" translate="yes" xml:space="preserve">
+          <source>OFFLINE</source>
+          <target state="new">OFFLINE</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderPassword" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="new">Password</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderSortItemsBy" translate="yes" xml:space="preserve">
+          <source>SORT ITEMS BY</source>
+          <target state="new">SORT ITEMS BY</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderTags" translate="yes" xml:space="preserve">
+          <source>Tags (comma separated)</source>
+          <target state="new">Tags (comma separated)</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderTile" translate="yes" xml:space="preserve">
+          <source>TILE</source>
+          <target state="new">TILE</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderTitle" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="new">Title</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderTweetId" translate="yes" xml:space="preserve">
+          <source>Tweet ID</source>
+          <target state="new">Tweet ID</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderUsername" translate="yes" xml:space="preserve">
+          <source>Username</source>
+          <target state="new">Username</target>
+        </trans-unit>
+        <trans-unit id="Resx/HeaderWhatToSearch" translate="yes" xml:space="preserve">
+          <source>What to search</source>
+          <target state="new">What to search</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelAbout" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="new">about</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelAddLink" translate="yes" xml:space="preserve">
+          <source>add link</source>
+          <target state="new">add link</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelArticles" translate="yes" xml:space="preserve">
+          <source>articles</source>
+          <target state="new">articles</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelBox" translate="yes" xml:space="preserve">
+          <source>Box</source>
+          <target state="new">Box</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelClearCache" translate="yes" xml:space="preserve">
+          <source>clear cache</source>
+          <target state="new">clear cache</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelClearOfflineFiles" translate="yes" xml:space="preserve">
+          <source>clear offline files</source>
+          <target state="new">clear offline files</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelConnectWithPocket" translate="yes" xml:space="preserve">
+          <source>connect with Pocket</source>
+          <target state="new">connect with Pocket</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelCreateNewUser" translate="yes" xml:space="preserve">
+          <source>create new user</source>
+          <target state="new">create new user</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelDeletingPrompt" translate="yes" xml:space="preserve">
+          <source>Don't prompt when deleting items</source>
+          <target state="new">Don't prompt when deleting items</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelEmptyContentArchived" translate="yes" xml:space="preserve">
+          <source>No archived items here</source>
+          <target state="new">No archived items here</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelEmptyContentQueued" translate="yes" xml:space="preserve">
+          <source>No queued items here</source>
+          <target state="new">No queued items here</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelEmptySearchResults" translate="yes" xml:space="preserve">
+          <source>No items found</source>
+          <target state="new">No items found</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelFinished" translate="yes" xml:space="preserve">
+          <source>finished</source>
+          <target state="new">finished</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelJustifyArticleContent" translate="yes" xml:space="preserve">
+          <source>Justify article content</source>
+          <target state="new">Justify article content</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelLarge" translate="yes" xml:space="preserve">
+          <source>large</source>
+          <target state="new">large</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelList" translate="yes" xml:space="preserve">
+          <source>List</source>
+          <target state="new">List</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelLogin" translate="yes" xml:space="preserve">
+          <source>login</source>
+          <target state="new">login</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelLoginText" translate="yes" xml:space="preserve">
+          <source>In order to use this app, you must sign into your Pocket account, if you don't have one, please click one of the sign up options.</source>
+          <target state="new">In order to use this app, you must sign into your Pocket account, if you don't have one, please click one of the sign up options.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelMedium" translate="yes" xml:space="preserve">
+          <source>medium</source>
+          <target state="new">medium</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelNotArticle" translate="yes" xml:space="preserve">
+          <source>This doesn't appear to be an article so might not display properly.</source>
+          <target state="new">This doesn't appear to be an article so might not display properly.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelOffline" translate="yes" xml:space="preserve">
+          <source>offline</source>
+          <target state="new">offline</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelOfflineBackground" translate="yes" xml:space="preserve">
+          <source>Similarly, we would also like to download content while the app is running.</source>
+          <target state="new">Similarly, we would also like to download content while the app is running.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelOfflineBestExperience" translate="yes" xml:space="preserve">
+          <source>In order to give the best offline experience, it can be best to have some of your articles downloaded even when the app isn't running.</source>
+          <target state="new">In order to give the best offline experience, it can be best to have some of your articles downloaded even when the app isn't running.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelOfflineSettings" translate="yes" xml:space="preserve">
+          <source>All of these can be changed later in the app settings.</source>
+          <target state="new">All of these can be changed later in the app settings.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelOfflineWifi" translate="yes" xml:space="preserve">
+          <source>Some articles may have a lot of images, because of this, you may only want to download offline content when connected to a wifi connection.</source>
+          <target state="new">Some articles may have a lot of images, because of this, you may only want to download offline content when connected to a wifi connection.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelPocketTerms" translate="yes" xml:space="preserve">
+          <source>Pocket terms of service</source>
+          <target state="new">Pocket terms of service</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelRateApp" translate="yes" xml:space="preserve">
+          <source>rate this app</source>
+          <target state="new">rate this app</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelRefreshWhenAppOpens" translate="yes" xml:space="preserve">
+          <source>Refresh when app opens</source>
+          <target state="new">Refresh when app opens</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelSearch" translate="yes" xml:space="preserve">
+          <source>search</source>
+          <target state="new">search</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelSearchInArticles" translate="yes" xml:space="preserve">
+          <source>Search in article links</source>
+          <target state="new">Search in article links</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelSendLogs" translate="yes" xml:space="preserve">
+          <source>send logs</source>
+          <target state="new">send logs</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelSettings" translate="yes" xml:space="preserve">
+          <source>settings</source>
+          <target state="new">settings</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelShowCountsOnTiles" translate="yes" xml:space="preserve">
+          <source>Show counts on tiles</source>
+          <target state="new">Show counts on tiles</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelSignUpFacebook" translate="yes" xml:space="preserve">
+          <source>join now using Facebook</source>
+          <target state="new">join now using Facebook</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelSignUpManually" translate="yes" xml:space="preserve">
+          <source>Sign up manually</source>
+          <target state="new">Sign up manually</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelSignUpText" translate="yes" xml:space="preserve">
+          <source>Click one of the two options below to create your account wtih Pocket</source>
+          <target state="new">Click one of the two options below to create your account wtih Pocket</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelSmall" translate="yes" xml:space="preserve">
+          <source>small</source>
+          <target state="new">small</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelTags" translate="yes" xml:space="preserve">
+          <source>tags</source>
+          <target state="new">tags</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelTechSupport" translate="yes" xml:space="preserve">
+          <source>technical support/feedback email</source>
+          <target state="new">technical support/feedback email</target>
+        </trans-unit>
+        <trans-unit id="Resx/WatermarkEmailAddress" translate="yes" xml:space="preserve">
+          <source>enter an email address...</source>
+          <target state="new">enter an email address...</target>
+        </trans-unit>
+        <trans-unit id="Resx/WatermarkEnterLink" translate="yes" xml:space="preserve">
+          <source>enter link...</source>
+          <target state="new">enter link...</target>
+        </trans-unit>
+        <trans-unit id="Resx/WatermarkEnterTags" translate="yes" xml:space="preserve">
+          <source>enter tags...</source>
+          <target state="new">enter tags...</target>
+        </trans-unit>
+        <trans-unit id="Resx/WatermarkEnterTitle" translate="yes" xml:space="preserve">
+          <source>enter title...</source>
+          <target state="new">enter title...</target>
+        </trans-unit>
+        <trans-unit id="Resx/WatermarkEnterTweetId" translate="yes" xml:space="preserve">
+          <source>enter tweet id...</source>
+          <target state="new">enter tweet id...</target>
+        </trans-unit>
+        <trans-unit id="Resx/WatermarkPassword" translate="yes" xml:space="preserve">
+          <source>enter a password...</source>
+          <target state="new">enter a password...</target>
+        </trans-unit>
+        <trans-unit id="Resx/WatermarkSearchInArticles" translate="yes" xml:space="preserve">
+          <source>search in titles and links...</source>
+          <target state="new">search in titles and links...</target>
+        </trans-unit>
+        <trans-unit id="Resx/WatermarkSearchInTags" translate="yes" xml:space="preserve">
+          <source>search in tags...</source>
+          <target state="new">search in tags...</target>
+        </trans-unit>
+        <trans-unit id="Resx/WatermarkUsername" translate="yes" xml:space="preserve">
+          <source>enter a username...</source>
+          <target state="new">enter a username...</target>
+        </trans-unit>
+        <trans-unit id="Resx/ErrorInvalidLink" translate="yes" xml:space="preserve">
+          <source>Invalid link, please try again</source>
+          <target state="new">Invalid link, please try again</target>
+        </trans-unit>
+        <trans-unit id="Resx/ErrorAccountFailure" translate="yes" xml:space="preserve">
+          <source>Unfortunately your account wasn't created at this time, please try again later.</source>
+          <target state="new">Unfortunately your account wasn't created at this time, please try again later.</target>
+        </trans-unit>
+        <trans-unit id="Resx/ErrorCreatingAccount" translate="yes" xml:space="preserve">
+          <source>Problem creating user, please try again later</source>
+          <target state="new">Problem creating user, please try again later</target>
+        </trans-unit>
+        <trans-unit id="Resx/ErrorFacebookToken" translate="yes" xml:space="preserve">
+          <source>Unfortunately that Facebook access token has expired</source>
+          <target state="new">Unfortunately that Facebook access token has expired</target>
+        </trans-unit>
+        <trans-unit id="Resx/ErrorTitle" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <target state="new">Error</target>
+        </trans-unit>
+        <trans-unit id="Resx/InfoImageSaved" translate="yes" xml:space="preserve">
+          <source>Image saved</source>
+          <target state="new">Image saved</target>
+        </trans-unit>
+        <trans-unit id="Resx/InfoSuccessfulAccount" translate="yes" xml:space="preserve">
+          <source>Account created successfully, you will now need to verify your email address. Not doing so may limit how much you can do in the app from this point. Once that's done, please connect the app to Pocket</source>
+          <target state="new">Account created successfully, you will now need to verify your email address. Not doing so may limit how much you can do in the app from this point. Once that's done, please connect the app to Pocket</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelAllItems" translate="yes" xml:space="preserve">
+          <source>all items</source>
+          <target state="new">all items</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelAlmostDone" translate="yes" xml:space="preserve">
+          <source>Almost there, {0}, just a few more details.</source>
+          <target state="new">Almost there, {0}, just a few more details.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelAtoZ" translate="yes" xml:space="preserve">
+          <source>a-z</source>
+          <target state="new">a-z</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelCancel" translate="yes" xml:space="preserve">
+          <source>cancel</source>
+          <target state="new">cancel</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelImages" translate="yes" xml:space="preserve">
+          <source>images</source>
+          <target state="new">images</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelNewest" translate="yes" xml:space="preserve">
+          <source>newest</source>
+          <target state="new">newest</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelNo" translate="yes" xml:space="preserve">
+          <source>no</source>
+          <target state="new">no</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelOldest" translate="yes" xml:space="preserve">
+          <source>oldest</source>
+          <target state="new">oldest</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelVideos" translate="yes" xml:space="preserve">
+          <source>videos</source>
+          <target state="new">videos</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelYes" translate="yes" xml:space="preserve">
+          <source>yes</source>
+          <target state="new">yes</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelZtoA" translate="yes" xml:space="preserve">
+          <source>z-a</source>
+          <target state="new">z-a</target>
+        </trans-unit>
+        <trans-unit id="Resx/MessageAccountTitle" translate="yes" xml:space="preserve">
+          <source>Account creation</source>
+          <target state="new">Account creation</target>
+        </trans-unit>
+        <trans-unit id="Resx/MessageDeleteItem" translate="yes" xml:space="preserve">
+          <source>Are you sure you wish to delete this item from your Pocket?</source>
+          <target state="new">Are you sure you wish to delete this item from your Pocket?</target>
+        </trans-unit>
+        <trans-unit id="Resx/MessageTitleAddALink" translate="yes" xml:space="preserve">
+          <source>Add a link</source>
+          <target state="new">Add a link</target>
+        </trans-unit>
+        <trans-unit id="Resx/MessageTitleAreYouSure" translate="yes" xml:space="preserve">
+          <source>Are you sure?</source>
+          <target state="new">Are you sure?</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayAdding" translate="yes" xml:space="preserve">
+          <source>Adding...</source>
+          <target state="new">Adding...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayArchiving" translate="yes" xml:space="preserve">
+          <source>Archiving...</source>
+          <target state="new">Archiving...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayDeleting" translate="yes" xml:space="preserve">
+          <source>Deleting...</source>
+          <target state="new">Deleting...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayGettingAccessToken" translate="yes" xml:space="preserve">
+          <source>Getting your access token...</source>
+          <target state="new">Getting your access token...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayGettingArticle" translate="yes" xml:space="preserve">
+          <source>Getting article...</source>
+          <target state="new">Getting article...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayRegisteringNewAccount" translate="yes" xml:space="preserve">
+          <source>Registering new account...</source>
+          <target state="new">Registering new account...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayRemovingFromArchive" translate="yes" xml:space="preserve">
+          <source>Removing from archive...</source>
+          <target state="new">Removing from archive...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTraySendingToPocket" translate="yes" xml:space="preserve">
+          <source>Sending you to Pocket...</source>
+          <target state="new">Sending you to Pocket...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayTalkingToFacebook" translate="yes" xml:space="preserve">
+          <source>Talking to Facebook</source>
+          <target state="new">Talking to Facebook</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayTalkingToPocket" translate="yes" xml:space="preserve">
+          <source>Preparing to talk to Pocket...</source>
+          <target state="new">Preparing to talk to Pocket...</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelAgentDescription" translate="yes" xml:space="preserve">
+          <source>Downloads any pending articles in the background.</source>
+          <target state="new">Downloads any pending articles in the background.</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelAppShortDescription" translate="yes" xml:space="preserve">
+          <source>Squirrel is a Pocket client (formerly ReadItLater) for Windows Phone 8</source>
+          <target state="new">Squirrel is a Pocket client (formerly ReadItLater) for Windows Phone 8</target>
+        </trans-unit>
+        <trans-unit id="Resx/LabelResultsFor" translate="yes" xml:space="preserve">
+          <source>results for {0}</source>
+          <target state="new">results for {0}</target>
+        </trans-unit>
+        <trans-unit id="Resx/MessageCacheCleared" translate="yes" xml:space="preserve">
+          <source>Cache cleared</source>
+          <target state="new">Cache cleared</target>
+        </trans-unit>
+        <trans-unit id="Resx/MessageDeleteOfflineFiles" translate="yes" xml:space="preserve">
+          <source>Are you sure you wish to delete the offline files?</source>
+          <target state="new">Are you sure you wish to delete the offline files?</target>
+        </trans-unit>
+        <trans-unit id="Resx/MessageOfflineFilesClear" translate="yes" xml:space="preserve">
+          <source>Offline files cleared</source>
+          <target state="new">Offline files cleared</target>
+        </trans-unit>
+        <trans-unit id="Resx/MessageTagsUpdated" translate="yes" xml:space="preserve">
+          <source>Tags updated</source>
+          <target state="new">Tags updated</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayGettingArchivedItems" translate="yes" xml:space="preserve">
+          <source>Getting archived items...</source>
+          <target state="new">Getting archived items...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayGettingQueuedItems" translate="yes" xml:space="preserve">
+          <source>Getting queued items...</source>
+          <target state="new">Getting queued items...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayLoadingItems" translate="yes" xml:space="preserve">
+          <source>Loading items...</source>
+          <target state="new">Loading items...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTraypUpdatingTags" translate="yes" xml:space="preserve">
+          <source>Updating tags...</source>
+          <target state="new">Updating tags...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTrayRestoring" translate="yes" xml:space="preserve">
+          <source>Restoring...</source>
+          <target state="new">Restoring...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTraySearching" translate="yes" xml:space="preserve">
+          <source>Searching...</source>
+          <target state="new">Searching...</target>
+        </trans-unit>
+        <trans-unit id="Resx/SysTraySorting" translate="yes" xml:space="preserve">
+          <source>Sorting...</source>
+          <target state="new">Sorting...</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

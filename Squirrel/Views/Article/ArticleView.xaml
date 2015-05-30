@@ -5,7 +5,6 @@
                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                 xmlns:scott="clr-namespace:ScottIsAFool.WindowsPhone.Controls;assembly=ScottIsAFool.WindowsPhone"
-                xmlns:controls="clr-namespace:Squirrel.Controls"
                 xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
                 xmlns:command="clr-namespace:GalaSoft.MvvmLight.Command;assembly=GalaSoft.MvvmLight.Extras.WP8"
                 xmlns:behaviours="clr-namespace:Squirrel.Behaviours"
@@ -51,8 +50,8 @@
                                              TrueValue="/Icons/appbar.star.minus.png"
                                              FalseValue="/Icons/appbar.star.add.png" />
         <converters:BooleanToStringConverter x:Key="FavouriteAppBarTextConverter"
-                                             TrueValue="remove"
-                                             FalseValue="add" />
+                                             TrueValue="{Binding LocalizedResources.AppBarRemove, Source={StaticResource LocalizedStrings}}"
+                                             FalseValue="{Binding LocalizedResources.AppBarAdd, Source={StaticResource LocalizedStrings}}" />
         <converters:BooleanToStringConverter x:Key="ArchivedIconConverter"
                                              TrueValue="/Icons/appbar.cabinet.variant.png"
                                              FalseValue="/Icons/appbar.cabinet.files.variant.png" />
@@ -84,24 +83,24 @@
                                                         Text="{Binding SelectedArticle.IsArchive, Converter={StaticResource ArchiveTextConverter}}"
                                                         Command="{Binding ArchiveCommand}"
                                                         CommandParameter="{Binding SelectedArticle}" />
-                    <behaviors:ApplicationBarIconButton Text="font size"
+                    <behaviors:ApplicationBarIconButton Text="{Binding LocalizedResources.AppBarFontSize, Source={StaticResource LocalizedStrings}}"
                                                         x:Name="FontSizeButton"
                                                         Click="FontSizeButton_OnClick"
                                                         IconUri="/Icons/appbar.text.size.png" />
-                    <behaviors:ApplicationBarIconButton Text="theme"
+                    <behaviors:ApplicationBarIconButton Text="{Binding LocalizedResources.AppBarTheme, Source={StaticResource LocalizedStrings}}"
                                                         x:Name="ThemeButton"
                                                         IconUri="/Icons/appbar.draw.brush.png"
                                                         Click="ThemeButton_OnClick" />
                 </behaviours:SquirrelApplicationBarBehaviour.Buttons>
                 <behaviours:SquirrelApplicationBarBehaviour.MenuItems>
-                    <behaviors:ApplicationBarMenuItem Text="Read aloud"
+                    <behaviors:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarReadAloud, Source={StaticResource LocalizedStrings}}"
                                                       Command="{Binding PlayArticleCommand}" />
-                    <behaviors:ApplicationBarMenuItem Text="delete"
+                    <behaviors:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarDelete, Source={StaticResource LocalizedStrings}}"
                                                       Command="{Binding DeleteCommand}"
                                                       CommandParameter="{Binding SelectedArticle}" />
-                    <behaviors:ApplicationBarMenuItem Text="switch view"
+                    <behaviors:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarSwitchView, Source={StaticResource LocalizedStrings}}"
                                                       IsVisible="False" />
-                    <behaviors:ApplicationBarMenuItem Text="open link in internet explorer"
+                    <behaviors:ApplicationBarMenuItem Text="{Binding LocalizedResources.AppBarOpenLink, Source={StaticResource LocalizedStrings}}"
                                                       Command="{Binding OpenLinkCommand}" />
                 </behaviours:SquirrelApplicationBarBehaviour.MenuItems>
             </behaviours:SquirrelApplicationBarBehaviour>
@@ -154,7 +153,7 @@
                                                 Background="{StaticResource SquirrelSubtleBackgroundBrush}"
                                                 CornerRadius="4"
                                                 Visibility="{Binding Article.PocketArticle.IsIndex, Source={StaticResource Locator}, Converter={StaticResource BooleanToVisibilityConverter}}">
-                                            <TextBlock Text="This doesn't appear to be an article so might not display properly."
+                                            <TextBlock Text="{Binding LocalizedResources.LabelNotArticle, Source={StaticResource LocalizedStrings}}"
                                                        Style="{StaticResource PhoneTextNormalStyle}"
                                                        TextWrapping="Wrap"
                                                        Margin="12,6" />

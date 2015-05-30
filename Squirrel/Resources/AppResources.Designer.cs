@@ -61,11 +61,83 @@ namespace Squirrel.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to about.
+        /// </summary>
+        public static string AppBarAbout {
+            get {
+                return ResourceManager.GetString("AppBarAbout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to add.
+        /// </summary>
+        public static string AppBarAdd {
+            get {
+                return ResourceManager.GetString("AppBarAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to add item.
+        /// </summary>
+        public static string AppBarAddItem {
+            get {
+                return ResourceManager.GetString("AppBarAddItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to advanced add.
+        /// </summary>
+        public static string AppBarAdvancedAdd {
+            get {
+                return ResourceManager.GetString("AppBarAdvancedAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to archive.
+        /// </summary>
+        public static string AppBarArchive {
+            get {
+                return ResourceManager.GetString("AppBarArchive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to add.
         /// </summary>
         public static string AppBarButtonText {
             get {
                 return ResourceManager.GetString("AppBarButtonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to create user.
+        /// </summary>
+        public static string AppBarCreateUser {
+            get {
+                return ResourceManager.GetString("AppBarCreateUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to delete.
+        /// </summary>
+        public static string AppBarDelete {
+            get {
+                return ResourceManager.GetString("AppBarDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to font size.
+        /// </summary>
+        public static string AppBarFontSize {
+            get {
+                return ResourceManager.GetString("AppBarFontSize", resourceCulture);
             }
         }
         
@@ -79,6 +151,123 @@ namespace Squirrel.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to open link in internet explorer.
+        /// </summary>
+        public static string AppBarOpenLink {
+            get {
+                return ResourceManager.GetString("AppBarOpenLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to quick add.
+        /// </summary>
+        public static string AppBarQuickAdd {
+            get {
+                return ResourceManager.GetString("AppBarQuickAdd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to read aloud.
+        /// </summary>
+        public static string AppBarReadAloud {
+            get {
+                return ResourceManager.GetString("AppBarReadAloud", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to remove.
+        /// </summary>
+        public static string AppBarRemove {
+            get {
+                return ResourceManager.GetString("AppBarRemove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to search.
+        /// </summary>
+        public static string AppBarSearch {
+            get {
+                return ResourceManager.GetString("AppBarSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to select all.
+        /// </summary>
+        public static string AppBarSelectAll {
+            get {
+                return ResourceManager.GetString("AppBarSelectAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to settings.
+        /// </summary>
+        public static string AppBarSettings {
+            get {
+                return ResourceManager.GetString("AppBarSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to sign out.
+        /// </summary>
+        public static string AppBarSignOut {
+            get {
+                return ResourceManager.GetString("AppBarSignOut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to switch view.
+        /// </summary>
+        public static string AppBarSwitchView {
+            get {
+                return ResourceManager.GetString("AppBarSwitchView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to tags.
+        /// </summary>
+        public static string AppBarTags {
+            get {
+                return ResourceManager.GetString("AppBarTags", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to theme.
+        /// </summary>
+        public static string AppBarTheme {
+            get {
+                return ResourceManager.GetString("AppBarTheme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to unarchive.
+        /// </summary>
+        public static string AppBarUnarchive {
+            get {
+                return ResourceManager.GetString("AppBarUnarchive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to unselect all.
+        /// </summary>
+        public static string AppBarUnselectAll {
+            get {
+                return ResourceManager.GetString("AppBarUnselectAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to MY APPLICATION.
         /// </summary>
         public static string ApplicationTitle {
@@ -88,11 +277,443 @@ namespace Squirrel.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Unfortunately your account wasn&apos;t created at this time, please try again later..
+        /// </summary>
+        public static string ErrorAccountFailure {
+            get {
+                return ResourceManager.GetString("ErrorAccountFailure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Problem creating user, please try again later.
+        /// </summary>
+        public static string ErrorCreatingAccount {
+            get {
+                return ResourceManager.GetString("ErrorCreatingAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unfortunately that Facebook access token has expired.
+        /// </summary>
+        public static string ErrorFacebookToken {
+            get {
+                return ResourceManager.GetString("ErrorFacebookToken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid link, please try again.
+        /// </summary>
+        public static string ErrorInvalidLink {
+            get {
+                return ResourceManager.GetString("ErrorInvalidLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        public static string ErrorTitle {
+            get {
+                return ResourceManager.GetString("ErrorTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ARTICLE.
+        /// </summary>
+        public static string HeaderArticle {
+            get {
+                return ResourceManager.GetString("HeaderArticle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CLEAR DATA.
+        /// </summary>
+        public static string HeaderClearData {
+            get {
+                return ResourceManager.GetString("HeaderClearData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default article sorting.
+        /// </summary>
+        public static string HeaderDefaultArticleSorting {
+            get {
+                return ResourceManager.GetString("HeaderDefaultArticleSorting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default cache timeout (minutes).
+        /// </summary>
+        public static string HeaderDefaultCacheTimeout {
+            get {
+                return ResourceManager.GetString("HeaderDefaultCacheTimeout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default font size.
+        /// </summary>
+        public static string HeaderDefaultFontSize {
+            get {
+                return ResourceManager.GetString("HeaderDefaultFontSize", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default reading theme.
+        /// </summary>
+        public static string HeaderDefaultReadingTheme {
+            get {
+                return ResourceManager.GetString("HeaderDefaultReadingTheme", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Default view.
+        /// </summary>
+        public static string HeaderDefaultView {
+            get {
+                return ResourceManager.GetString("HeaderDefaultView", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Download content when the app is running.
+        /// </summary>
+        public static string HeaderDownloadInBackground {
+            get {
+                return ResourceManager.GetString("HeaderDownloadInBackground", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Download content when the app isn&apos;t running.
+        /// </summary>
+        public static string HeaderDownloadWhenNotRunning {
+            get {
+                return ResourceManager.GetString("HeaderDownloadWhenNotRunning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Only download on wifi.
+        /// </summary>
+        public static string HeaderDownloadWifi {
+            get {
+                return ResourceManager.GetString("HeaderDownloadWifi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email address.
+        /// </summary>
+        public static string HeaderEmailAddress {
+            get {
+                return ResourceManager.GetString("HeaderEmailAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to GENERAL.
+        /// </summary>
+        public static string HeaderGeneral {
+            get {
+                return ResourceManager.GetString("HeaderGeneral", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ITEMS TO SHOW.
+        /// </summary>
+        public static string HeaderItemsToShow {
+            get {
+                return ResourceManager.GetString("HeaderItemsToShow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Link (Required).
+        /// </summary>
+        public static string HeaderLink {
+            get {
+                return ResourceManager.GetString("HeaderLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to OFFLINE.
+        /// </summary>
+        public static string HeaderOffline {
+            get {
+                return ResourceManager.GetString("HeaderOffline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Password.
+        /// </summary>
+        public static string HeaderPassword {
+            get {
+                return ResourceManager.GetString("HeaderPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SORT ITEMS BY.
+        /// </summary>
+        public static string HeaderSortItemsBy {
+            get {
+                return ResourceManager.GetString("HeaderSortItemsBy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tags (comma separated).
+        /// </summary>
+        public static string HeaderTags {
+            get {
+                return ResourceManager.GetString("HeaderTags", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to TILE.
+        /// </summary>
+        public static string HeaderTile {
+            get {
+                return ResourceManager.GetString("HeaderTile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        public static string HeaderTitle {
+            get {
+                return ResourceManager.GetString("HeaderTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tweet ID.
+        /// </summary>
+        public static string HeaderTweetId {
+            get {
+                return ResourceManager.GetString("HeaderTweetId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Username.
+        /// </summary>
+        public static string HeaderUsername {
+            get {
+                return ResourceManager.GetString("HeaderUsername", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What to search.
+        /// </summary>
+        public static string HeaderWhatToSearch {
+            get {
+                return ResourceManager.GetString("HeaderWhatToSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image saved.
+        /// </summary>
+        public static string InfoImageSaved {
+            get {
+                return ResourceManager.GetString("InfoImageSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Account created successfully, you will now need to verify your email address. Not doing so may limit how much you can do in the app from this point. Once that&apos;s done, please connect the app to Pocket.
+        /// </summary>
+        public static string InfoSuccessfulAccount {
+            get {
+                return ResourceManager.GetString("InfoSuccessfulAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to about.
+        /// </summary>
+        public static string LabelAbout {
+            get {
+                return ResourceManager.GetString("LabelAbout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to add link.
+        /// </summary>
+        public static string LabelAddLink {
+            get {
+                return ResourceManager.GetString("LabelAddLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Downloads any pending articles in the background..
+        /// </summary>
+        public static string LabelAgentDescription {
+            get {
+                return ResourceManager.GetString("LabelAgentDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to all items.
+        /// </summary>
+        public static string LabelAllItems {
+            get {
+                return ResourceManager.GetString("LabelAllItems", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Almost there, {0}, just a few more details..
+        /// </summary>
+        public static string LabelAlmostDone {
+            get {
+                return ResourceManager.GetString("LabelAlmostDone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Squirrel is a Pocket client (formerly ReadItLater) for Windows Phone 8.
+        /// </summary>
+        public static string LabelAppShortDescription {
+            get {
+                return ResourceManager.GetString("LabelAppShortDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to articles.
+        /// </summary>
+        public static string LabelArticles {
+            get {
+                return ResourceManager.GetString("LabelArticles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to a-z.
+        /// </summary>
+        public static string LabelAtoZ {
+            get {
+                return ResourceManager.GetString("LabelAtoZ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to authorising.
         /// </summary>
         public static string LabelAuthorisingHeader {
             get {
                 return ResourceManager.GetString("LabelAuthorisingHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Box.
+        /// </summary>
+        public static string LabelBox {
+            get {
+                return ResourceManager.GetString("LabelBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to cancel.
+        /// </summary>
+        public static string LabelCancel {
+            get {
+                return ResourceManager.GetString("LabelCancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to clear cache.
+        /// </summary>
+        public static string LabelClearCache {
+            get {
+                return ResourceManager.GetString("LabelClearCache", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to clear offline files.
+        /// </summary>
+        public static string LabelClearOfflineFiles {
+            get {
+                return ResourceManager.GetString("LabelClearOfflineFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to connect with Pocket.
+        /// </summary>
+        public static string LabelConnectWithPocket {
+            get {
+                return ResourceManager.GetString("LabelConnectWithPocket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to create new user.
+        /// </summary>
+        public static string LabelCreateNewUser {
+            get {
+                return ResourceManager.GetString("LabelCreateNewUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Don&apos;t prompt when deleting items.
+        /// </summary>
+        public static string LabelDeletingPrompt {
+            get {
+                return ResourceManager.GetString("LabelDeletingPrompt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No archived items here.
+        /// </summary>
+        public static string LabelEmptyContentArchived {
+            get {
+                return ResourceManager.GetString("LabelEmptyContentArchived", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No queued items here.
+        /// </summary>
+        public static string LabelEmptyContentQueued {
+            get {
+                return ResourceManager.GetString("LabelEmptyContentQueued", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No items found.
+        /// </summary>
+        public static string LabelEmptySearchResults {
+            get {
+                return ResourceManager.GetString("LabelEmptySearchResults", resourceCulture);
             }
         }
         
@@ -115,11 +736,164 @@ namespace Squirrel.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to finished.
+        /// </summary>
+        public static string LabelFinished {
+            get {
+                return ResourceManager.GetString("LabelFinished", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to images.
+        /// </summary>
+        public static string LabelImages {
+            get {
+                return ResourceManager.GetString("LabelImages", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Justify article content.
+        /// </summary>
+        public static string LabelJustifyArticleContent {
+            get {
+                return ResourceManager.GetString("LabelJustifyArticleContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to large.
+        /// </summary>
+        public static string LabelLarge {
+            get {
+                return ResourceManager.GetString("LabelLarge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to List.
+        /// </summary>
+        public static string LabelList {
+            get {
+                return ResourceManager.GetString("LabelList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to login.
+        /// </summary>
+        public static string LabelLogin {
+            get {
+                return ResourceManager.GetString("LabelLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In order to use this app, you must sign into your Pocket account, if you don&apos;t have one, please click one of the sign up options..
+        /// </summary>
+        public static string LabelLoginText {
+            get {
+                return ResourceManager.GetString("LabelLoginText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to medium.
+        /// </summary>
+        public static string LabelMedium {
+            get {
+                return ResourceManager.GetString("LabelMedium", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to newest.
+        /// </summary>
+        public static string LabelNewest {
+            get {
+                return ResourceManager.GetString("LabelNewest", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to no.
+        /// </summary>
+        public static string LabelNo {
+            get {
+                return ResourceManager.GetString("LabelNo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to No favourites have been added.
         /// </summary>
         public static string LabelNoFavouritesAdded {
             get {
                 return ResourceManager.GetString("LabelNoFavouritesAdded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This doesn&apos;t appear to be an article so might not display properly..
+        /// </summary>
+        public static string LabelNotArticle {
+            get {
+                return ResourceManager.GetString("LabelNotArticle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to offline.
+        /// </summary>
+        public static string LabelOffline {
+            get {
+                return ResourceManager.GetString("LabelOffline", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Similarly, we would also like to download content while the app is running..
+        /// </summary>
+        public static string LabelOfflineBackground {
+            get {
+                return ResourceManager.GetString("LabelOfflineBackground", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In order to give the best offline experience, it can be best to have some of your articles downloaded even when the app isn&apos;t running..
+        /// </summary>
+        public static string LabelOfflineBestExperience {
+            get {
+                return ResourceManager.GetString("LabelOfflineBestExperience", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All of these can be changed later in the app settings..
+        /// </summary>
+        public static string LabelOfflineSettings {
+            get {
+                return ResourceManager.GetString("LabelOfflineSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Some articles may have a lot of images, because of this, you may only want to download offline content when connected to a wifi connection..
+        /// </summary>
+        public static string LabelOfflineWifi {
+            get {
+                return ResourceManager.GetString("LabelOfflineWifi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to oldest.
+        /// </summary>
+        public static string LabelOldest {
+            get {
+                return ResourceManager.GetString("LabelOldest", resourceCulture);
             }
         }
         
@@ -133,11 +907,155 @@ namespace Squirrel.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Pocket terms of service.
+        /// </summary>
+        public static string LabelPocketTerms {
+            get {
+                return ResourceManager.GetString("LabelPocketTerms", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to rate this app.
+        /// </summary>
+        public static string LabelRateApp {
+            get {
+                return ResourceManager.GetString("LabelRateApp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Refresh?.
+        /// </summary>
+        public static string LabelRefresh {
+            get {
+                return ResourceManager.GetString("LabelRefresh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Refresh when app opens.
+        /// </summary>
+        public static string LabelRefreshWhenAppOpens {
+            get {
+                return ResourceManager.GetString("LabelRefreshWhenAppOpens", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to results for {0}.
+        /// </summary>
+        public static string LabelResultsFor {
+            get {
+                return ResourceManager.GetString("LabelResultsFor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to search.
+        /// </summary>
+        public static string LabelSearch {
+            get {
+                return ResourceManager.GetString("LabelSearch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search in article links.
+        /// </summary>
+        public static string LabelSearchInArticles {
+            get {
+                return ResourceManager.GetString("LabelSearchInArticles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to send logs.
+        /// </summary>
+        public static string LabelSendLogs {
+            get {
+                return ResourceManager.GetString("LabelSendLogs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to settings.
+        /// </summary>
+        public static string LabelSettings {
+            get {
+                return ResourceManager.GetString("LabelSettings", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Show counts on tiles.
+        /// </summary>
+        public static string LabelShowCountsOnTiles {
+            get {
+                return ResourceManager.GetString("LabelShowCountsOnTiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to join now using Facebook.
+        /// </summary>
+        public static string LabelSignUpFacebook {
+            get {
+                return ResourceManager.GetString("LabelSignUpFacebook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sign up manually.
+        /// </summary>
+        public static string LabelSignUpManually {
+            get {
+                return ResourceManager.GetString("LabelSignUpManually", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Click one of the two options below to create your account wtih Pocket.
+        /// </summary>
+        public static string LabelSignUpText {
+            get {
+                return ResourceManager.GetString("LabelSignUpText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to small.
+        /// </summary>
+        public static string LabelSmall {
+            get {
+                return ResourceManager.GetString("LabelSmall", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Squirrel accent colour (yellow).
         /// </summary>
         public static string LabelSquirrelAccentColour {
             get {
                 return ResourceManager.GetString("LabelSquirrelAccentColour", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to tags.
+        /// </summary>
+        public static string LabelTags {
+            get {
+                return ResourceManager.GetString("LabelTags", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to technical support/feedback email.
+        /// </summary>
+        public static string LabelTechSupport {
+            get {
+                return ResourceManager.GetString("LabelTechSupport", resourceCulture);
             }
         }
         
@@ -160,6 +1078,105 @@ namespace Squirrel.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to videos.
+        /// </summary>
+        public static string LabelVideos {
+            get {
+                return ResourceManager.GetString("LabelVideos", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to yes.
+        /// </summary>
+        public static string LabelYes {
+            get {
+                return ResourceManager.GetString("LabelYes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to z-a.
+        /// </summary>
+        public static string LabelZtoA {
+            get {
+                return ResourceManager.GetString("LabelZtoA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Account creation.
+        /// </summary>
+        public static string MessageAccountTitle {
+            get {
+                return ResourceManager.GetString("MessageAccountTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cache cleared.
+        /// </summary>
+        public static string MessageCacheCleared {
+            get {
+                return ResourceManager.GetString("MessageCacheCleared", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure you wish to delete this item from your Pocket?.
+        /// </summary>
+        public static string MessageDeleteItem {
+            get {
+                return ResourceManager.GetString("MessageDeleteItem", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure you wish to delete the offline files?.
+        /// </summary>
+        public static string MessageDeleteOfflineFiles {
+            get {
+                return ResourceManager.GetString("MessageDeleteOfflineFiles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Offline files cleared.
+        /// </summary>
+        public static string MessageOfflineFilesClear {
+            get {
+                return ResourceManager.GetString("MessageOfflineFilesClear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tags updated.
+        /// </summary>
+        public static string MessageTagsUpdated {
+            get {
+                return ResourceManager.GetString("MessageTagsUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Add a link.
+        /// </summary>
+        public static string MessageTitleAddALink {
+            get {
+                return ResourceManager.GetString("MessageTitleAddALink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are you sure?.
+        /// </summary>
+        public static string MessageTitleAreYouSure {
+            get {
+                return ResourceManager.GetString("MessageTitleAreYouSure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to LeftToRight.
         /// </summary>
         public static string ResourceFlowDirection {
@@ -178,11 +1195,65 @@ namespace Squirrel.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Adding....
+        /// </summary>
+        public static string SysTrayAdding {
+            get {
+                return ResourceManager.GetString("SysTrayAdding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Adding to favourites....
         /// </summary>
         public static string SysTrayAddingToFavourites {
             get {
                 return ResourceManager.GetString("SysTrayAddingToFavourites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Archiving....
+        /// </summary>
+        public static string SysTrayArchiving {
+            get {
+                return ResourceManager.GetString("SysTrayArchiving", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Deleting....
+        /// </summary>
+        public static string SysTrayDeleting {
+            get {
+                return ResourceManager.GetString("SysTrayDeleting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Getting your access token....
+        /// </summary>
+        public static string SysTrayGettingAccessToken {
+            get {
+                return ResourceManager.GetString("SysTrayGettingAccessToken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Getting archived items....
+        /// </summary>
+        public static string SysTrayGettingArchivedItems {
+            get {
+                return ResourceManager.GetString("SysTrayGettingArchivedItems", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Getting article....
+        /// </summary>
+        public static string SysTrayGettingArticle {
+            get {
+                return ResourceManager.GetString("SysTrayGettingArticle", resourceCulture);
             }
         }
         
@@ -196,11 +1267,191 @@ namespace Squirrel.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Getting queued items....
+        /// </summary>
+        public static string SysTrayGettingQueuedItems {
+            get {
+                return ResourceManager.GetString("SysTrayGettingQueuedItems", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Loading items....
+        /// </summary>
+        public static string SysTrayLoadingItems {
+            get {
+                return ResourceManager.GetString("SysTrayLoadingItems", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Updating tags....
+        /// </summary>
+        public static string SysTraypUpdatingTags {
+            get {
+                return ResourceManager.GetString("SysTraypUpdatingTags", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Registering new account....
+        /// </summary>
+        public static string SysTrayRegisteringNewAccount {
+            get {
+                return ResourceManager.GetString("SysTrayRegisteringNewAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Removing from archive....
+        /// </summary>
+        public static string SysTrayRemovingFromArchive {
+            get {
+                return ResourceManager.GetString("SysTrayRemovingFromArchive", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Removing from favourites....
         /// </summary>
         public static string SysTrayRemovingFromFavourites {
             get {
                 return ResourceManager.GetString("SysTrayRemovingFromFavourites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Restoring....
+        /// </summary>
+        public static string SysTrayRestoring {
+            get {
+                return ResourceManager.GetString("SysTrayRestoring", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Searching....
+        /// </summary>
+        public static string SysTraySearching {
+            get {
+                return ResourceManager.GetString("SysTraySearching", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sending you to Pocket....
+        /// </summary>
+        public static string SysTraySendingToPocket {
+            get {
+                return ResourceManager.GetString("SysTraySendingToPocket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sorting....
+        /// </summary>
+        public static string SysTraySorting {
+            get {
+                return ResourceManager.GetString("SysTraySorting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Talking to Facebook.
+        /// </summary>
+        public static string SysTrayTalkingToFacebook {
+            get {
+                return ResourceManager.GetString("SysTrayTalkingToFacebook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Preparing to talk to Pocket....
+        /// </summary>
+        public static string SysTrayTalkingToPocket {
+            get {
+                return ResourceManager.GetString("SysTrayTalkingToPocket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to enter an email address....
+        /// </summary>
+        public static string WatermarkEmailAddress {
+            get {
+                return ResourceManager.GetString("WatermarkEmailAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to enter link....
+        /// </summary>
+        public static string WatermarkEnterLink {
+            get {
+                return ResourceManager.GetString("WatermarkEnterLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to enter tags....
+        /// </summary>
+        public static string WatermarkEnterTags {
+            get {
+                return ResourceManager.GetString("WatermarkEnterTags", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to enter title....
+        /// </summary>
+        public static string WatermarkEnterTitle {
+            get {
+                return ResourceManager.GetString("WatermarkEnterTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to enter tweet id....
+        /// </summary>
+        public static string WatermarkEnterTweetId {
+            get {
+                return ResourceManager.GetString("WatermarkEnterTweetId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to enter a password....
+        /// </summary>
+        public static string WatermarkPassword {
+            get {
+                return ResourceManager.GetString("WatermarkPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to search in titles and links....
+        /// </summary>
+        public static string WatermarkSearchInArticles {
+            get {
+                return ResourceManager.GetString("WatermarkSearchInArticles", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to search in tags....
+        /// </summary>
+        public static string WatermarkSearchInTags {
+            get {
+                return ResourceManager.GetString("WatermarkSearchInTags", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to enter a username....
+        /// </summary>
+        public static string WatermarkUsername {
+            get {
+                return ResourceManager.GetString("WatermarkUsername", resourceCulture);
             }
         }
     }

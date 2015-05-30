@@ -12,6 +12,7 @@ using PocketSharp;
 using ScottIsAFool.WindowsPhone.ViewModel;
 using Squirrel.Extensions;
 using Squirrel.Model;
+using Squirrel.Resources;
 using Squirrel.Services;
 using INavigationService = Squirrel.Services.INavigationService;
 
@@ -92,7 +93,7 @@ namespace Squirrel.ViewModel
 
         private async Task FacebookAuthentication()
         {
-            SetProgressBar("Talking to Facebook");
+            SetProgressBar(AppResources.SysTrayTalkingToFacebook);
 
             var session = SessionStorage.Load();
 
@@ -114,14 +115,14 @@ namespace Squirrel.ViewModel
 
                         Username = user.Username;
                         EmailAddress = user.Email;
-                        AlmostDone = string.Format("Almost there, {0}, just a few more details.", user.FirstName);
+                        AlmostDone = string.Format(AppResources.LabelAlmostDone, user.FirstName);
 
                         _navigationService.NavigateTo(Constants.Pages.Login.NewUserView);
                     }
                 }
                 else
                 {
-                    MessageBox.Show("Unfortunately that Facebook access token has expired");
+                    MessageBox.Show(AppResources.ErrorFacebookToken);
                     _navigationService.NavigateTo(Constants.Pages.MainPage);
                 }
             }
@@ -138,7 +139,7 @@ namespace Squirrel.ViewModel
                     ReturnUri = Constants.Pages.MainPage;
                 }
 
-                SetProgressBar("Preparing to talk to Pocket...");
+                SetProgressBar(AppResources.SysTrayTalkingToPocket);
 
                 var callbackUri = string.Format(Constants.CallBackUri, Uri.EscapeUriString(ReturnUri));
                 _pocketClient = new PocketClient(Constants.PocketConsumerKey, callbackUri: callbackUri);
@@ -147,7 +148,7 @@ namespace Squirrel.ViewModel
                 {
                     await _pocketClient.GetRequestCode();
 
-                    SetProgressBar("Sending you to Pocket...");
+                    SetProgressBar(AppResources.SysTraySendingToPocket);
                     var authUri = _pocketClient.GenerateAuthenticationUri();
 
                     _isFirstLoad = false;
@@ -168,7 +169,7 @@ namespace Squirrel.ViewModel
             {
                 try
                 {
-                    SetProgressBar("Getting your access token...");
+                    SetProgressBar(AppResources.SysTrayGettingAccessToken);
                     var user = await _pocketClient.GetUser();
                     AuthenticationService.Current.SetUser(user, _pocketClient);
                     CacheService.Current.CreateCacheForUser();
@@ -209,7 +210,7 @@ namespace Squirrel.ViewModel
 
                     try
                     {
-                        SetProgressBar("Registering new account...");
+                        SetProgressBar(AppResources.SysTrayRegisteringNewAccount);
 
                         var result = await _pocketClient.RegisterAccount(Username, EmailAddress, Password);
 
@@ -219,11 +220,11 @@ namespace Squirrel.ViewModel
                         }
 
                         var message = result
-                            ? "Account created successfully, you will now need to verify your email address. Not doing so may limit how much you can do in the app from this point. Once that's done, please connect the app to Pocket"
-                            : "Unfortunately your account wasn't created at this time, please try again later.";
+                            ? AppResources.InfoSuccessfulAccount
+                            : AppResources.ErrorAccountFailure;
 
                         SetProgressBar();
-                        MessageBox.Show(message, "Account creation", MessageBoxButton.OK);
+                        MessageBox.Show(message, AppResources.MessageAccountTitle, MessageBoxButton.OK);
 
                         if (result)
                         {
@@ -234,7 +235,7 @@ namespace Squirrel.ViewModel
                     {
                         SetProgressBar();
                         Log.ErrorException("CreateUserCommand", ex);
-                        MessageBox.Show("Problem creating user, please try again later", "Error", MessageBoxButton.OK);
+                        MessageBox.Show(AppResources.ErrorCreatingAccount, AppResources.ErrorTitle, MessageBoxButton.OK);
                     }
                 });
             }

@@ -28,7 +28,7 @@
         <behaviours:SquirrelApplicationBarBehaviour>
             <behaviours:SquirrelApplicationBarBehaviour.Buttons>
                 <behaviors:ApplicationBarIconButton IconUri="/Icons/check.png"
-                                                    Text="add item"
+                                                    Text="{Binding LocalizedResources.AppBarAddItem, Source={StaticResource LocalizedStrings}}"
                                                     IsEnabled="{Binding Text, ElementName=LinkBox, Converter={StaticResource NullVisibilityConverter}}"
                                                     Command="{Binding AddItemCommand}"/>
             </behaviours:SquirrelApplicationBarBehaviour.Buttons>
@@ -49,7 +49,7 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <controls:SquirrelLogoHeader Text="add link"/>
+        <controls:SquirrelLogoHeader Text="{Binding LocalizedResources.LabelAddLink, Source={StaticResource LocalizedStrings}}"/>
 
 
         <!--ContentPanel - place additional content here-->
@@ -58,20 +58,20 @@
               Margin="12,0,12,0"
               DataContext="{Binding PocketDataItem}">
             <StackPanel Orientation="Vertical">
-                <telerikPrimitives:RadTextBox Header="Link (Required)"
+                <telerikPrimitives:RadTextBox Header="{Binding LocalizedResources.HeaderLink, Source={StaticResource LocalizedStrings}}"
                                               Text="{Binding Uri, Mode=TwoWay}"
-                                              Watermark="enter link..."
+                                              Watermark="{Binding LocalizedResources.WatermarkEnterLink, Source={StaticResource LocalizedStrings}}"
                                               x:Name="LinkBox"
                                               InputScope="Url"/>
-                <telerikPrimitives:RadTextBox Header="Title"
+                <telerikPrimitives:RadTextBox Header="{Binding LocalizedResources.HeaderTitle, Source={StaticResource LocalizedStrings}}"
                                               Text="{Binding Title, Mode=TwoWay}"
-                                              Watermark="enter title..."/>
-                <telerikPrimitives:RadTextBox Header="Tags (comma separated)"
+                                              Watermark="{Binding LocalizedResources.WatermarkEnterTitle, Source={StaticResource LocalizedStrings}}"/>
+                <telerikPrimitives:RadTextBox Header="{Binding LocalizedResources.HeaderTags, Source={StaticResource LocalizedStrings}}"
                                               Text="{Binding Tags, Mode=TwoWay}"
-                                              Watermark="enter tags..."/>
-                <telerikPrimitives:RadTextBox Header="Tweet ID"
+                                              Watermark="{Binding LocalizedResources.WatermarkEnterTags, Source={StaticResource LocalizedStrings}}"/>
+                <telerikPrimitives:RadTextBox Header="{Binding LocalizedResources.HeaderTweetId, Source={StaticResource LocalizedStrings}}"
                                               Text="{Binding TweetId, Mode=TwoWay}"
-                                              Watermark="enter tweet id..."/>
+                                              Watermark="{Binding LocalizedResources.WatermarkEnterTweetId, Source={StaticResource LocalizedStrings}}"/>
             </StackPanel>
         </Grid>
     </Grid>

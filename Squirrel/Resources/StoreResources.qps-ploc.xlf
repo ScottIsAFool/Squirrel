@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-GB" target-language="qps-ploc" original="StoreResources.resx" tool-id="MultilingualAppToolkit" product-name="Squirrel" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="2.1.2010.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit translate="yes" id="Resx/StoreDescription" xml:space="preserve">
+          <source>Squirrel is a fully featured Pocket (formerly Read It Later) client for Windows Phone 8.
+
+Trial version and paid version are *identical*, paid just shows support for the app.
+
+Features:
+- Offline reading
+- Manage articles (delete/archive/favourite)
+- Manage article tags
+- Live tile showing article counts
+- Different layouts for showing your articles (list/box)
+- Customisable article viewing: change font size, theme, justified text
+- Have Squirrel read out the article to you.
+
+FEEDBACK
+We love feedback, and it's what helps make the app better. If you have any feedback, do please contact us by email squirrelapp@outlook.com or on twitter @squirrelWP. 
+
+RATINGS
+We *really* love ratings, however, 1* ratings give us sad faces. If you feel that your 1* rating is justified, do please get in touch with us above and we can try and help resolve whatever issues you're having.</source>
+          <target state="new">Squirrel is a fully featured Pocket (formerly Read It Later) client for Windows Phone 8.
+
+Trial version and paid version are *identical*, paid just shows support for the app.
+
+Features:
+- Offline reading
+- Manage articles (delete/archive/favourite)
+- Manage article tags
+- Live tile showing article counts
+- Different layouts for showing your articles (list/box)
+- Customisable article viewing: change font size, theme, justified text
+- Have Squirrel read out the article to you.
+
+FEEDBACK
+We love feedback, and it's what helps make the app better. If you have any feedback, do please contact us by email squirrelapp@outlook.com or on twitter @squirrelWP. 
+
+RATINGS
+We *really* love ratings, however, 1* ratings give us sad faces. If you feel that your 1* rating is justified, do please get in touch with us above and we can try and help resolve whatever issues you're having.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

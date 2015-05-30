@@ -3,6 +3,7 @@ using System.Windows.Navigation;
 using Coding4Fun.Toolkit.Controls;
 using Squirrel.Extensions;
 using Squirrel.Model;
+using Squirrel.Resources;
 using Squirrel.ViewModel;
 
 namespace Squirrel.Views.Article
@@ -23,9 +24,9 @@ namespace Squirrel.Views.Article
         private void FontSizeButton_OnClick(object sender, EventArgs e)
         {
             new AppBarPrompt(
-                new AppBarPromptAction("large", () => ChangeFontSize(Model.FontSize.Large)),
-                new AppBarPromptAction("medium", () => ChangeFontSize(Model.FontSize.Medium)),
-                new AppBarPromptAction("small", () => ChangeFontSize(Model.FontSize.Small))
+                new AppBarPromptAction(AppResources.LabelLarge, () => ChangeFontSize(Model.FontSize.Large)),
+                new AppBarPromptAction(AppResources.LabelMedium, () => ChangeFontSize(Model.FontSize.Medium)),
+                new AppBarPromptAction(AppResources.LabelSmall, () => ChangeFontSize(Model.FontSize.Small))
                 ).Show();
         }
 

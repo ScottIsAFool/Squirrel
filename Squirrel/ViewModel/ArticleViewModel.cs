@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System.Windows;
 using Windows.Phone.Speech.Synthesis;
 using Cimbalino.Phone.Toolkit.Services;
-using Coding4Fun.Toolkit.Controls;
 using GalaSoft.MvvmLight.Command;
 using GalaSoft.MvvmLight.Messaging;
 using HtmlAgilityPack;
@@ -102,7 +99,7 @@ namespace Squirrel.ViewModel
                         return;
                     }
 
-                    SetProgressBar("Getting article...");
+                    SetProgressBar(AppResources.SysTrayGettingArticle);
 
                     await GetArticleDetails();
 
@@ -151,7 +148,7 @@ namespace Squirrel.ViewModel
                         return;
                     }
 
-                    SetProgressBar(item.IsArchive ? "Removing from archive..." : "Archiving...");
+                    SetProgressBar(item.IsArchive ? AppResources.SysTrayRemovingFromArchive : AppResources.SysTrayArchiving);
 
                     await item.ArchiveItem(_pocketClient, Log, CacheService.Current);
 
@@ -175,10 +172,10 @@ namespace Squirrel.ViewModel
                     {
                         var question = new CustomMessageBox
                         {
-                            Message = "Are you sure you wish to delete this item from your Pocket?",
-                            Title = "Are you sure?",
-                            LeftButtonContent = "yes",
-                            RightButtonContent = "no",
+                            Message = AppResources.MessageDeleteItem,
+                            Title = AppResources.MessageTitleAreYouSure,
+                            LeftButtonContent = AppResources.LabelYes,
+                            RightButtonContent = AppResources.LabelNo,
                             Content = Utils.CreateDontShowCheckBox("DontPromptForDeletion")
                         };
                         var result = await question.ShowAsync();
@@ -188,7 +185,7 @@ namespace Squirrel.ViewModel
                         }
                     }
 
-                    SetProgressBar("Deleting...");
+                    SetProgressBar(AppResources.SysTrayDeleting);
 
                     await item.DeleteItem(_pocketClient, Log, CacheService.Current, () =>
                     {
@@ -257,7 +254,7 @@ namespace Squirrel.ViewModel
                             var filename = string.Format("squirrel-{0}.jpg", DateTime.Now.ToString("yy-MM-dd-hh-mm-ss"));
                             mediaLibrary.SavePicture(filename, image);
 
-                            App.ShowMessage("Image saved.");
+                            App.ShowMessage(AppResources.InfoImageSaved);
                         }
                     }
                     else
@@ -271,7 +268,7 @@ namespace Squirrel.ViewModel
                             var filename = string.Format("squirrel-{0}.jpg", DateTime.Now.ToString("yy-MM-dd-hh-mm-ss"));
                             mediaLibrary.SavePicture(filename, await response.Content.ReadAsStreamAsync());
 
-                            App.ShowMessage("Image saved.");
+                            App.ShowMessage(AppResources.InfoImageSaved);
                         }
                     }
                 });
@@ -311,7 +308,7 @@ namespace Squirrel.ViewModel
                 return;
             }
 
-            SetProgressBar("Getting article...");
+            SetProgressBar(AppResources.SysTrayGettingArticle);
 
             ArticleContent = string.Empty;
             await GetArticleDetails();

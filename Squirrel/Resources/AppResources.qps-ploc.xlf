@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-GB" target-language="qps-ploc" original="AppResources.resx" tool-id="MultilingualAppToolkit" product-name="Squirrel" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="2.1.2010.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit translate="yes" id="Resx/ResourceFlowDirection" xml:space="preserve">
+          <source>LeftToRight</source>
+          <target state="translated">LeftToRight</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</note></trans-unit>
+        <trans-unit translate="yes" id="Resx/ResourceLanguage" xml:space="preserve">
+          <source>en</source>
+          <target state="translated">qps-ploc</target>
+          
+        <note from="MultilingualBuild" annotates="source" priority="2">Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</note></trans-unit>
+        <trans-unit translate="yes" id="Resx/ApplicationTitle" xml:space="preserve">
+          <source>MY APPLICATION</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[2D776][!!_МỲ ÂΡÞĿÎĊÃŢĮÒŇ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarButtonText" xml:space="preserve">
+          <source>add</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[8F8CA][!!_àðð_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarMenuItemText" xml:space="preserve">
+          <source>Menu Item</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[3E06C][!!_Мèйú Įťêm_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelAuthorisingHeader" xml:space="preserve">
+          <source>authorising</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[93C44][!!_àµτђõѓíŝįиġ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelNoFavouritesAdded" xml:space="preserve">
+          <source>No favourites have been added</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E75B5][!!_Ñô ƒâνòµŗìτèŝ ђâνé ъęęή âđðèđ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayGettingFavourites" xml:space="preserve">
+          <source>Getting favourites...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[8E125][!!_Ğêτţįиġ ƒàνóúřìţèş..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelFavourite" xml:space="preserve">
+          <source>favourite</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[21AAF][!!_ƒàνôùŗîτê_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelUnfavourite" xml:space="preserve">
+          <source>unfavourite</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[BC27E][!!_ûиƒàνóùŕîτé_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayAddingToFavourites" xml:space="preserve">
+          <source>Adding to favourites...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E2F4C][!!_Âďðîйğ τô ƒàνõµřìτèŝ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayRemovingFromFavourites" xml:space="preserve">
+          <source>Removing from favourites...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[2C018][!!_Ѓémóνîиğ ƒѓòm ƒáνóùѓįţêŝ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelPhoneAccentColour" xml:space="preserve">
+          <source>Phone accent colour</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F70D9][!!_Þћòήé ãćĉéητ ĉõļóûŕ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelSquirrelAccentColour" xml:space="preserve">
+          <source>Squirrel accent colour (yellow)</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[540A2][!!_Ŝqûìŕŗèĺ àĉćéиť ċóĺôµř (ýêłļòŵ)_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelTileColour" xml:space="preserve">
+          <source>Tile colour</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[40A03][!!_Τíĺé čõĺôµŗ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelFavourites" xml:space="preserve">
+          <source>Favourites</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E3AD4][!!_₣ãνõùřįťéŝ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarAbout" xml:space="preserve">
+          <source>about</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E50E0][!!_ãьôûť_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarAdvancedAdd" xml:space="preserve">
+          <source>advanced add</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[88F03][!!_àďνâиćéð âðð_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarQuickAdd" xml:space="preserve">
+          <source>quick add</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[874E3][!!_qùìćķ àðð_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarSearch" xml:space="preserve">
+          <source>search</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[FA1AE][!!_šêářċħ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarSettings" xml:space="preserve">
+          <source>settings</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[B147D][!!_ŝęťтîηĝŝ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarSignOut" xml:space="preserve">
+          <source>sign out</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[97C2D][!!_śìĝη òµţ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelRefresh" xml:space="preserve">
+          <source>Refresh?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[674C9][!!_Řèƒřêŝħ?_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarAdd" xml:space="preserve">
+          <source>add</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[75F5A][!!_àðð_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarAddItem" xml:space="preserve">
+          <source>add item</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[45246][!!_ãđđ îтém_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarArchive" xml:space="preserve">
+          <source>archive</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[C948C][!!_àŗčнíνé_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarCreateUser" xml:space="preserve">
+          <source>create user</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[A20D4][!!_čŕèàţè ùšęŕ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarDelete" xml:space="preserve">
+          <source>delete</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[DF375][!!_ðęłéţę_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarFontSize" xml:space="preserve">
+          <source>font size</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[D91B2][!!_ƒôηť şíżé_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarOpenLink" xml:space="preserve">
+          <source>open link in internet explorer</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[5D3BB][!!_õρêή ļîйĸ îй îйţęŕηęť ęхρĺõřèѓ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarReadAloud" xml:space="preserve">
+          <source>read aloud</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[395BE][!!_ѓéàđ âľôùď_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarRemove" xml:space="preserve">
+          <source>remove</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[A559E][!!_ŗęmôνé_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarSelectAll" xml:space="preserve">
+          <source>select all</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[4ACE6][!!_ŝęĺêċť âľł_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarSwitchView" xml:space="preserve">
+          <source>switch view</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[47A65][!!_šẃîţćђ νíêẁ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarTags" xml:space="preserve">
+          <source>tags</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[41025][!!_тáĝş_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarTheme" xml:space="preserve">
+          <source>theme</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E4382][!!_тĥèмé_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarUnarchive" xml:space="preserve">
+          <source>unarchive</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[DE2DC][!!_µηâŗċĥìνê_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/AppBarUnselectAll" xml:space="preserve">
+          <source>unselect all</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[BDA32][!!_ùήšéĺéćт áļļ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderArticle" xml:space="preserve">
+          <source>ARTICLE</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[23A76][!!_ÂŔΤÍČĻÊ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderClearData" xml:space="preserve">
+          <source>CLEAR DATA</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F30C2][!!_ĆĿĘÀЃ ĐÂТÂ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderDefaultArticleSorting" xml:space="preserve">
+          <source>Default article sorting</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[2E37E][!!_Đèƒáµĺť âřťîċłę ŝóřτìиğ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderDefaultCacheTimeout" xml:space="preserve">
+          <source>Default cache timeout (minutes)</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[B2C6C][!!_Ðéƒàûĺт ćâĉħé ţìmèòúт (mîηµťèş)_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderDefaultFontSize" xml:space="preserve">
+          <source>Default font size</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[D1FD0][!!_Ðêƒáúłť ƒõиţ ŝìžê_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderDefaultReadingTheme" xml:space="preserve">
+          <source>Default reading theme</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[816B8][!!_Đęƒàûłť ŗéáďįйğ τнéмé_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderDefaultView" xml:space="preserve">
+          <source>Default view</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[9A33F][!!_Ðêƒãûłт νįêẃ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderDownloadInBackground" xml:space="preserve">
+          <source>Download content when the app is running</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[C6301][!!_Đôŵηļòâð čôήтêит ẅћęη τђè ãρρ îŝ ѓúηйìиģ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderDownloadWhenNotRunning" xml:space="preserve">
+          <source>Download content when the app isn't running</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[EBBF3][!!_Đôẁйĺóãđ čôиţęήţ ẁħêη ťĥè âρр îśη'ť řùηйíηģ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderDownloadWifi" xml:space="preserve">
+          <source>Only download on wifi</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[448E0][!!_Òήłŷ ďôẃηłõãð ôи ẃįƒį_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderEmailAddress" xml:space="preserve">
+          <source>Email address</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[B5B28][!!_Êmáìł àđďѓéšş_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderGeneral" xml:space="preserve">
+          <source>GENERAL</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[54088][!!_ĢÈŃÊЃÁĻ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderItemsToShow" xml:space="preserve">
+          <source>ITEMS TO SHOW</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[4A981][!!_ÎŢÊМŠ ΤÔ ŚНÔẂ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderLink" xml:space="preserve">
+          <source>Link (Required)</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[75819][!!_Ľįйĸ (Ŗêqµįŕêđ)_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderOffline" xml:space="preserve">
+          <source>OFFLINE</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[46514][!!_Õ₣₣ĿĮŃĘ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderPassword" xml:space="preserve">
+          <source>Password</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[11D89][!!_Рãšşẅóřð_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderSortItemsBy" xml:space="preserve">
+          <source>SORT ITEMS BY</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[77051][!!_ŜÓŔТ ĮŤÈΜŜ ΒЎ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderTags" xml:space="preserve">
+          <source>Tags (comma separated)</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[FDE27][!!_Ťáģŝ (ćõмmá śéρáŗáτêð)_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderTile" xml:space="preserve">
+          <source>TILE</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[1582A][!!_ŤÌĿÈ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderTitle" xml:space="preserve">
+          <source>Title</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[9528A][!!_Τíťļè_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderTweetId" xml:space="preserve">
+          <source>Tweet ID</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[29B89][!!_Τŵèêт ÍÐ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderUsername" xml:space="preserve">
+          <source>Username</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[25262][!!_Ùśêŗиàмê_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/HeaderWhatToSearch" xml:space="preserve">
+          <source>What to search</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[39F2E][!!_Ŵħâţ тò šéàѓćђ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelAbout" xml:space="preserve">
+          <source>about</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[61CA1][!!_àвóûт_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelAddLink" xml:space="preserve">
+          <source>add link</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[A066E][!!_ãďð ĺîиĸ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelArticles" xml:space="preserve">
+          <source>articles</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[0DAE6][!!_àѓтîċľéś_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelBox" xml:space="preserve">
+          <source>Box</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[A68C6][!!_Ьôх_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelClearCache" xml:space="preserve">
+          <source>clear cache</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[BFFDE][!!_ćĺèãŕ čáċћè_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelClearOfflineFiles" xml:space="preserve">
+          <source>clear offline files</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[8061E][!!_čļęář ôƒƒĺįиé ƒîłêŝ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelConnectWithPocket" xml:space="preserve">
+          <source>connect with Pocket</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E1E12][!!_ćõήηęčť ẅîτн Þõćĸèт_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelCreateNewUser" xml:space="preserve">
+          <source>create new user</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[7DAA0][!!_ċŕéâţé ηèẁ úśéŕ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelDeletingPrompt" xml:space="preserve">
+          <source>Don't prompt when deleting items</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[2D658][!!_Ðôή'т рѓòмþţ ẃħèй đêļęţìήĝ íţêмş_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelEmptyContentArchived" xml:space="preserve">
+          <source>No archived items here</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F1AB6][!!_Ňõ ářčђįνéð îтémŝ ћêŗé_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelEmptyContentQueued" xml:space="preserve">
+          <source>No queued items here</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[DE258][!!_Ńó qµêúéð îтémş ħêѓę_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelEmptySearchResults" xml:space="preserve">
+          <source>No items found</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[3ABB0][!!_Ňõ ìτèmš ƒõûήď_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelFinished" xml:space="preserve">
+          <source>finished</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[BC00F][!!_ƒìиîšћéð_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelJustifyArticleContent" xml:space="preserve">
+          <source>Justify article content</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[7E3B5][!!_Ĵùŝţįƒў ãŕťîĉĺê ĉôηтèήţ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelLarge" xml:space="preserve">
+          <source>large</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[B0733][!!_ĺâŗġê_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelList" xml:space="preserve">
+          <source>List</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[18E1A][!!_Ĺíśτ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelLogin" xml:space="preserve">
+          <source>login</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[52980][!!_ľõġįи_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelLoginText" xml:space="preserve">
+          <source>In order to use this app, you must sign into your Pocket account, if you don't have one, please click one of the sign up options.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[DB28F][!!_Íή óřðèŗ ţó ûŝè τнíš àþр, ÿóµ мµşτ śîġи îηťò Уòûŗ Рóćĸęţ ãċćòúήţ, ìƒ ўòµ đòи'т ђáνè óйé, рĺéãšê ĉĺìċќ òиê õƒ ţђè śíğи µρ ôрťíõиś._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelMedium" xml:space="preserve">
+          <source>medium</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[2411F][!!_mêðíûm_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelNotArticle" xml:space="preserve">
+          <source>This doesn't appear to be an article so might not display properly.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F4E85][!!_Τђįŝ ðõéşη'τ àþþèãř τô вé àи âѓтîćľê šó мîģħť иóť ðîşрļáў рѓõрęѓłў._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelOffline" xml:space="preserve">
+          <source>offline</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[B46F9][!!_õƒƒłíήé_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelOfflineBackground" xml:space="preserve">
+          <source>Similarly, we would also like to download content while the app is running.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[6923B][!!_Śîmįĺãŗľÿ, ẅę ẃôùļď áĺŝò łìĸè ţò ďóẁηľõâđ čõиτéητ ẁђìļè ťħê àþр îŝ ŕúийíηġ._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelOfflineBestExperience" xml:space="preserve">
+          <source>In order to give the best offline experience, it can be best to have some of your articles downloaded even when the app isn't running.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[EFA7A][!!_Įи õŗďéř τó ğįνè тħè вèşт õƒƒļįήè ê×ρéřìéйĉé, îţ ĉâи Бê ьéšţ тõ нàνê šòмê ôƒ ўôúŕ âřţîćĺéş ðõẅйĺõãđêđ èνèй ẁђęи тĥę âþρ įšи'ť ѓûηиíηğ._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelOfflineSettings" xml:space="preserve">
+          <source>All of these can be changed later in the app settings.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[9F780][!!_Àłł ôƒ тħêśé ċáй вè ċħáйĝéď ļàтèř îй τĥé ãρр šéττįηĝš._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelOfflineWifi" xml:space="preserve">
+          <source>Some articles may have a lot of images, because of this, you may only want to download offline content when connected to a wifi connection.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[26DB1][!!_Şòмê âŕťìċłêś máÿ ћàνê á łóт òƒ íмãğêş, ъéćãûšè óƒ ţħîş, ŷõù мãў òήĺУ ẅáйт тó ðòẃήľòãð òƒƒļíйê čòитéήτ ẅђèη ĉôиηéčτêđ ťò à ŵíƒí ćóήηęċτîòη._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelPocketTerms" xml:space="preserve">
+          <source>Pocket terms of service</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[55516][!!_Ρôĉќéţ ţęřmś òƒ şéŗνįċê_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelRateApp" xml:space="preserve">
+          <source>rate this app</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[D1301][!!_řâţê ţĥíś âρρ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelRefreshWhenAppOpens" xml:space="preserve">
+          <source>Refresh when app opens</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[4A322][!!_Ŕęƒŕęśђ ẅнęй áρþ ôþéиś_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelSearch" xml:space="preserve">
+          <source>search</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[D7404][!!_šéâŕćĥ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelSearchInArticles" xml:space="preserve">
+          <source>Search in article links</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[46823][!!_Şèãřċћ îη àřтìčľę łìήĸš_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelSendLogs" xml:space="preserve">
+          <source>send logs</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[37556][!!_şéиð ĺòģŝ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelSettings" xml:space="preserve">
+          <source>settings</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[FE05D][!!_šêτťįηĝš_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelShowCountsOnTiles" xml:space="preserve">
+          <source>Show counts on tiles</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F96E7][!!_Śĥòẁ ĉõúηтŝ ôй τíłêś_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelSignUpFacebook" xml:space="preserve">
+          <source>join now using Facebook</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[4F80D][!!_ĵõįη иõẃ µśìйġ ₣àĉèъóòķ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelSignUpManually" xml:space="preserve">
+          <source>Sign up manually</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[43019][!!_Şìĝη ùþ мáйùãłļУ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelSignUpText" xml:space="preserve">
+          <source>Click one of the two options below to create your account wtih Pocket</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[53BC7][!!_Ċļíćķ õиę óƒ ťĥé τẁó óρţįõиŝ вęļõẅ тò čřéâτę ŷõûŗ àčćòµиť ẁťįћ Ρõćкéт_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelSmall" xml:space="preserve">
+          <source>small</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[05762][!!_śмâłľ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelTags" xml:space="preserve">
+          <source>tags</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[2D040][!!_тàğŝ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelTechSupport" xml:space="preserve">
+          <source>technical support/feedback email</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[2294A][!!_тéċĥйíĉãľ şúþρôŗт/ƒéęðБâĉк émãíļ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/WatermarkEmailAddress" xml:space="preserve">
+          <source>enter an email address...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E7281][!!_éηтéŗ âи ęmáîľ àđđřęśś..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/WatermarkEnterLink" xml:space="preserve">
+          <source>enter link...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[C5F24][!!_éηťèŗ łíйк..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/WatermarkEnterTags" xml:space="preserve">
+          <source>enter tags...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[CF4BE][!!_éήţèŗ тàğš..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/WatermarkEnterTitle" xml:space="preserve">
+          <source>enter title...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[5E4B5][!!_êηтęѓ ţįťļę..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/WatermarkEnterTweetId" xml:space="preserve">
+          <source>enter tweet id...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[1EBBB][!!_êήţèŗ τẅéêţ ìď..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/WatermarkPassword" xml:space="preserve">
+          <source>enter a password...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[9CAAA][!!_ęήťéř á рãŝšŵòŕđ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/WatermarkSearchInArticles" xml:space="preserve">
+          <source>search in titles and links...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[66D7B][!!_ŝęàřčђ įй ťįтĺèş áиď ľįηķş..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/WatermarkSearchInTags" xml:space="preserve">
+          <source>search in tags...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F5FCE][!!_śéàŗĉĥ įй ťâģš..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/WatermarkUsername" xml:space="preserve">
+          <source>enter a username...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[817D7][!!_êйтéŕ ã úŝęřиàмè..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/ErrorInvalidLink" xml:space="preserve">
+          <source>Invalid link, please try again</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[1F313][!!_Îйνãłíð ĺìηķ, ρľęâšę ţřÿ âğàíй_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/ErrorAccountFailure" xml:space="preserve">
+          <source>Unfortunately your account wasn't created at this time, please try again later.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F46A8][!!_Ûηƒõѓţùйáťęľў ўòµŗ ãĉćôùйţ ẃãšή'т ċŕęâţéď ãτ ţĥíš тîmê, þĺęàśê ťŕŷ ãģáîи ļàτèŗ._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/ErrorCreatingAccount" xml:space="preserve">
+          <source>Problem creating user, please try again later</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[3A9D9][!!_Þřôвłêм čřęâтîηğ ùśęѓ, рļéáśę ťŗÿ âģãíй ĺàťêř_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/ErrorFacebookToken" xml:space="preserve">
+          <source>Unfortunately that Facebook access token has expired</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[1A5D2][!!_Ûήƒòŕţµйáţèĺý ţĥãţ ₣ãċęьôõк âĉćèşş ţòĸęи ђâś é×þìŕęð_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/ErrorTitle" xml:space="preserve">
+          <source>Error</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[FA745][!!_Éѓŗõŕ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/InfoImageSaved" xml:space="preserve">
+          <source>Image saved</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[97B5F][!!_Îмáğè ŝáνêď_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/InfoSuccessfulAccount" xml:space="preserve">
+          <source>Account created successfully, you will now need to verify your email address. Not doing so may limit how much you can do in the app from this point. Once that's done, please connect the app to Pocket</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[FBA74][!!_Âċċòûйт čŗèáťéď šµččêŝşƒµĺļУ, ŷôû ẁįłĺ ήòẅ йèęď ťô νęřìƒŷ ўóµŕ êmãíĺ àđďŗéśś. Ņóт đóíηġ şó mãÿ ļíмìт ħòẃ мùĉĥ ўóµ čãй ďõ ìи τнè âρр ƒŗòм ţђìŝ ρòíήт. Óηčê ţнãτ'š đóηé, рļéáşé ĉóήήéćτ ťħę ãрр ťõ Þôĉкęţ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelAllItems" xml:space="preserve">
+          <source>all items</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[B4CA8][!!_áľĺ įτêмś_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelAlmostDone" xml:space="preserve">
+          <source>Almost there, {0}, just a few more details.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[322BA][!!_Âļмòŝт тђéŕę, {0}, јúşť à ƒèẁ môŗé ďéτàįľś._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelAtoZ" xml:space="preserve">
+          <source>a-z</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[B35E5][!!_ã-ź_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelCancel" xml:space="preserve">
+          <source>cancel</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[4D4C3][!!_ćãиčéļ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelImages" xml:space="preserve">
+          <source>images</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[A65FA][!!_ìmãġèş_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelNewest" xml:space="preserve">
+          <source>newest</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[5A254][!!_ηęŵéśţ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelNo" xml:space="preserve">
+          <source>no</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[7A5A7][!!_йò_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelOldest" xml:space="preserve">
+          <source>oldest</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[011F6][!!_õļðèŝτ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelVideos" xml:space="preserve">
+          <source>videos</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[3E9D7][!!_νíđêóš_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelYes" xml:space="preserve">
+          <source>yes</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[76B7F][!!_ýęş_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelZtoA" xml:space="preserve">
+          <source>z-a</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[E8175][!!_ż-ã_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MessageAccountTitle" xml:space="preserve">
+          <source>Account creation</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[1314A][!!_Àććòùйť ċѓéàťìóη_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MessageDeleteItem" xml:space="preserve">
+          <source>Are you sure you wish to delete this item from your Pocket?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[4E536][!!_Àŗê ýõú śµŗê ýòù ẅìśħ тò đęĺęťę τħįŝ ìťéм ƒŗôm ўõûѓ Рòċķéţ?_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MessageTitleAddALink" xml:space="preserve">
+          <source>Add a link</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[BC4E2][!!_Àðð à ļîήк_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MessageTitleAreYouSure" xml:space="preserve">
+          <source>Are you sure?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[A4DF9][!!_Ãřê ŷõú şûŗé?_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayAdding" xml:space="preserve">
+          <source>Adding...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[26B3F][!!_Áðđîйğ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayArchiving" xml:space="preserve">
+          <source>Archiving...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F95C5][!!_Âřćћîνíиĝ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayDeleting" xml:space="preserve">
+          <source>Deleting...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[B2EA2][!!_Ðêĺéτìήĝ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayGettingAccessToken" xml:space="preserve">
+          <source>Getting your access token...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[EFBCE][!!_Ġéťťîйĝ ўõúѓ ãčċêşş τòќêή..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayGettingArticle" xml:space="preserve">
+          <source>Getting article...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[44708][!!_Ģęτтíйĝ âѓťíĉłè..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayRegisteringNewAccount" xml:space="preserve">
+          <source>Registering new account...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[0583A][!!_Řêģįşтęřįηğ йèŵ ãčćõµήţ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayRemovingFromArchive" xml:space="preserve">
+          <source>Removing from archive...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[06550][!!_Ѓêмôνìиğ ƒѓôm àŗċħìνé..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTraySendingToPocket" xml:space="preserve">
+          <source>Sending you to Pocket...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[6CC32][!!_Šéήðįηğ ŷòù ţô Ρõčķęτ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayTalkingToFacebook" xml:space="preserve">
+          <source>Talking to Facebook</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[AC514][!!_Ţáĺķíήĝ τó ₣áċèБõòķ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayTalkingToPocket" xml:space="preserve">
+          <source>Preparing to talk to Pocket...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[5341D][!!_Ρřéрãřįηğ тõ ťãľк ţó Рóċķéτ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelAgentDescription" xml:space="preserve">
+          <source>Downloads any pending articles in the background.</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[BCFF2][!!_Ďóẁηĺõãđş ãήў рèйđįйĝ ãŕţìćľęş ìй τĥę ьàčĸģřõùиđ._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelAppShortDescription" xml:space="preserve">
+          <source>Squirrel is a Pocket client (formerly ReadItLater) for Windows Phone 8</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[2B8B5][!!_Šqûìŗѓêľ îş ã Þôćķéť čļîęйτ (ƒõŗмèŗľŷ ЃèãďÍтĹâτéŕ) ƒôѓ Ẁîηđòẅš Ρнôиę 8_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/LabelResultsFor" xml:space="preserve">
+          <source>results for {0}</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[9A48C][!!_řęŝúłτş ƒòŕ {0}_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MessageCacheCleared" xml:space="preserve">
+          <source>Cache cleared</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[C27F4][!!_Čáċĥê ċļęãŕèð_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MessageDeleteOfflineFiles" xml:space="preserve">
+          <source>Are you sure you wish to delete the offline files?</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[CF52C][!!_Ãѓę ўóµ šµřè ŷòù ẁìšħ ţó ďéĺęтè τнê õƒƒļìиę ƒíĺęš?_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MessageOfflineFilesClear" xml:space="preserve">
+          <source>Offline files cleared</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[40A23][!!_Òƒƒłîήé ƒįĺêş ćĺêâřêď_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/MessageTagsUpdated" xml:space="preserve">
+          <source>Tags updated</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[F42DF][!!_Ţâĝš ùрðàťèđ_!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayGettingArchivedItems" xml:space="preserve">
+          <source>Getting archived items...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[59D6C][!!_Ĝêťтîйġ âŕčнìνêď ìτèmš..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayGettingQueuedItems" xml:space="preserve">
+          <source>Getting queued items...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[32C19][!!_Ĝęťţîηğ qûêùéð ìтéмŝ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayLoadingItems" xml:space="preserve">
+          <source>Loading items...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[9F952][!!_Ĺòáďìηĝ ìтęmş..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTraypUpdatingTags" xml:space="preserve">
+          <source>Updating tags...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[85751][!!_Üþðàţíηģ ťâģš..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTrayRestoring" xml:space="preserve">
+          <source>Restoring...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[A0D14][!!_Ŕęŝťõѓįηĝ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTraySearching" xml:space="preserve">
+          <source>Searching...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[6D2E4][!!_Śéâřčħįήġ..._!!]</target>
+        </trans-unit>
+        <trans-unit translate="yes" id="Resx/SysTraySorting" xml:space="preserve">
+          <source>Sorting...</source>
+          <target state="signed-off" state-qualifier="mt-suggestion">[6276A][!!_Šõѓтìήġ..._!!]</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

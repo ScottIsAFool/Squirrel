@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,6 +9,7 @@ using ScottIsAFool.WindowsPhone.Extensions;
 using ScottIsAFool.WindowsPhone.ViewModel;
 using Squirrel.Extensions;
 using Squirrel.Model;
+using Squirrel.Resources;
 using INavigationService = Squirrel.Services.INavigationService;
 
 namespace Squirrel.ViewModel
@@ -45,6 +45,11 @@ namespace Squirrel.ViewModel
         public bool SearchByTags { get; set; }
         public bool SearchInArticleLinks { get; set; }
         public ObservableCollection<ExtendedPocketItem> SearchResults { get; set; }
+
+        public string SearchTitle
+        {
+            get { return string.Format(AppResources.LabelResultsFor, SearchTerm); }
+        }
 
         public RelayCommand SearchCommand
         {
@@ -88,7 +93,7 @@ namespace Squirrel.ViewModel
         {
             try
             {
-                SetProgressBar("Searching...");
+                SetProgressBar(AppResources.SysTraySearching);
 
                 var items = SearchByTags
                     ? await _pocketClient.SearchByTag(SearchTerm)

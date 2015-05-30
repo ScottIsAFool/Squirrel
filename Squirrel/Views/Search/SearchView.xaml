@@ -22,12 +22,11 @@
                 DataContext="{Binding Search, Source={StaticResource Locator}}">
 
     <scott:BasePage.Resources>
-        <converters:BooleanToStringConverter TrueValue="tags"
-                                             FalseValue="articles"
+        <converters:BooleanToStringConverter TrueValue="{Binding LocalizedResources.LabelTags, Source={StaticResource LocalizedStrings}, Mode=OneTime}"
+                                             FalseValue="{Binding LocalizedResources.LabelArticles, Source={StaticResource LocalizedStrings}, Mode=OneTime}"
                                              x:Key="TagsArticleConverter" />
-        <converters:NegativeBooleanConverter x:Key="NegativeBooleanConverter"/>
-        <converters:BooleanToStringConverter TrueValue="search in tags..."
-                                             FalseValue="search in titles and links..."
+        <converters:BooleanToStringConverter TrueValue="{Binding LocalizedResources.WatermarkSearchInTags, Source={StaticResource LocalizedStrings}}"
+                                             FalseValue="{Binding LocalizedResources.WatermarkSearchInArticles, Source={StaticResource LocalizedStrings}}"
                                              x:Key="SearchForConverter"/>
     </scott:BasePage.Resources>
 
@@ -60,7 +59,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <controls:SquirrelLogoHeader Text="search" />
+        <controls:SquirrelLogoHeader Text="{Binding LocalizedResources.LabelSearch, Source={StaticResource LocalizedStrings}}" />
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel"
@@ -74,10 +73,10 @@
                         <behaviours:UpdateTextBindingOnPropertyChanged EnterHitCommand="{Binding SearchCommand}"/>
                     </i:Interaction.Behaviors>
                 </telerikPrimitives:RadTextBox>
-                <telerikPrimitives:RadToggleSwitch Header="What to search"
+                <telerikPrimitives:RadToggleSwitch Header="{Binding LocalizedResources.HeaderWhatToSearch, Source={StaticResource LocalizedStrings}}"
                                                    Content="{Binding SearchByTags, Converter={StaticResource TagsArticleConverter}}"
                                                    IsChecked="{Binding SearchByTags, Mode=TwoWay}" />
-                <CheckBox Content="Search in article links"
+                <CheckBox Content="{Binding LocalizedResources.LabelSearchInArticles, Source={StaticResource LocalizedStrings}}"
                           IsChecked="{Binding SearchInArticleLinks, Mode=TwoWay}"
                           IsEnabled="{Binding SearchByTags, Converter={StaticResource NegativeBooleanConverter}}"/>
             </StackPanel>

@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>qps-ploc</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<data name="ApplicationTitle" xml:space="preserve"><value>[2D776][!!_МỲ ÂΡÞĿÎĊÃŢĮÒŇ_!!]</value></data><data name="AppBarButtonText" xml:space="preserve"><value>[8F8CA][!!_àðð_!!]</value></data><data name="AppBarMenuItemText" xml:space="preserve"><value>[3E06C][!!_Мèйú Įťêm_!!]</value></data><data name="LabelAuthorisingHeader" xml:space="preserve"><value>[93C44][!!_àµτђõѓíŝįиġ_!!]</value></data><data name="LabelNoFavouritesAdded" xml:space="preserve"><value>[E75B5][!!_Ñô ƒâνòµŗìτèŝ ђâνé ъęęή âđðèđ_!!]</value></data><data name="SysTrayGettingFavourites" xml:space="preserve"><value>[8E125][!!_Ğêτţįиġ ƒàνóúřìţèş..._!!]</value></data><data name="LabelFavourite" xml:space="preserve"><value>[21AAF][!!_ƒàνôùŗîτê_!!]</value></data><data name="LabelUnfavourite" xml:space="preserve"><value>[BC27E][!!_ûиƒàνóùŕîτé_!!]</value></data><data name="SysTrayAddingToFavourites" xml:space="preserve"><value>[E2F4C][!!_Âďðîйğ τô ƒàνõµřìτèŝ..._!!]</value></data><data name="SysTrayRemovingFromFavourites" xml:space="preserve"><value>[2C018][!!_Ѓémóνîиğ ƒѓòm ƒáνóùѓįţêŝ..._!!]</value></data><data name="LabelPhoneAccentColour" xml:space="preserve"><value>[F70D9][!!_Þћòήé ãćĉéητ ĉõļóûŕ_!!]</value></data><data name="LabelSquirrelAccentColour" xml:space="preserve"><value>[540A2][!!_Ŝqûìŕŗèĺ àĉćéиť ċóĺôµř (ýêłļòŵ)_!!]</value></data><data name="LabelTileColour" xml:space="preserve"><value>[40A03][!!_Τíĺé čõĺôµŗ_!!]</value></data><data name="LabelFavourites" xml:space="preserve"><value>[E3AD4][!!_₣ãνõùřįťéŝ_!!]</value></data><data name="AppBarAbout" xml:space="preserve"><value>[E50E0][!!_ãьôûť_!!]</value></data><data name="AppBarAdvancedAdd" xml:space="preserve"><value>[88F03][!!_àďνâиćéð âðð_!!]</value></data><data name="AppBarQuickAdd" xml:space="preserve"><value>[874E3][!!_qùìćķ àðð_!!]</value></data><data name="AppBarSearch" xml:space="preserve"><value>[FA1AE][!!_šêářċħ_!!]</value></data><data name="AppBarSettings" xml:space="preserve"><value>[B147D][!!_ŝęťтîηĝŝ_!!]</value></data><data name="AppBarSignOut" xml:space="preserve"><value>[97C2D][!!_śìĝη òµţ_!!]</value></data><data name="LabelRefresh" xml:space="preserve"><value>[674C9][!!_Řèƒřêŝħ?_!!]</value></data><data name="AppBarAdd" xml:space="preserve"><value>[75F5A][!!_àðð_!!]</value></data><data name="AppBarAddItem" xml:space="preserve"><value>[45246][!!_ãđđ îтém_!!]</value></data><data name="AppBarArchive" xml:space="preserve"><value>[C948C][!!_àŗčнíνé_!!]</value></data><data name="AppBarCreateUser" xml:space="preserve"><value>[A20D4][!!_čŕèàţè ùšęŕ_!!]</value></data><data name="AppBarDelete" xml:space="preserve"><value>[DF375][!!_ðęłéţę_!!]</value></data><data name="AppBarFontSize" xml:space="preserve"><value>[D91B2][!!_ƒôηť şíżé_!!]</value></data><data name="AppBarOpenLink" xml:space="preserve"><value>[5D3BB][!!_õρêή ļîйĸ îй îйţęŕηęť ęхρĺõřèѓ_!!]</value></data><data name="AppBarReadAloud" xml:space="preserve"><value>[395BE][!!_ѓéàđ âľôùď_!!]</value></data><data name="AppBarRemove" xml:space="preserve"><value>[A559E][!!_ŗęmôνé_!!]</value></data><data name="AppBarSelectAll" xml:space="preserve"><value>[4ACE6][!!_ŝęĺêċť âľł_!!]</value></data><data name="AppBarSwitchView" xml:space="preserve"><value>[47A65][!!_šẃîţćђ νíêẁ_!!]</value></data><data name="AppBarTags" xml:space="preserve"><value>[41025][!!_тáĝş_!!]</value></data><data name="AppBarTheme" xml:space="preserve"><value>[E4382][!!_тĥèмé_!!]</value></data><data name="AppBarUnarchive" xml:space="preserve"><value>[DE2DC][!!_µηâŗċĥìνê_!!]</value></data><data name="AppBarUnselectAll" xml:space="preserve"><value>[BDA32][!!_ùήšéĺéćт áļļ_!!]</value></data><data name="HeaderArticle" xml:space="preserve"><value>[23A76][!!_ÂŔΤÍČĻÊ_!!]</value></data><data name="HeaderClearData" xml:space="preserve"><value>[F30C2][!!_ĆĿĘÀЃ ĐÂТÂ_!!]</value></data><data name="HeaderDefaultArticleSorting" xml:space="preserve"><value>[2E37E][!!_Đèƒáµĺť âřťîċłę ŝóřτìиğ_!!]</value></data><data name="HeaderDefaultCacheTimeout" xml:space="preserve"><value>[B2C6C][!!_Ðéƒàûĺт ćâĉħé ţìmèòúт (mîηµťèş)_!!]</value></data><data name="HeaderDefaultFontSize" xml:space="preserve"><value>[D1FD0][!!_Ðêƒáúłť ƒõиţ ŝìžê_!!]</value></data><data name="HeaderDefaultReadingTheme" xml:space="preserve"><value>[816B8][!!_Đęƒàûłť ŗéáďįйğ τнéмé_!!]</value></data><data name="HeaderDefaultView" xml:space="preserve"><value>[9A33F][!!_Ðêƒãûłт νįêẃ_!!]</value></data><data name="HeaderDownloadInBackground" xml:space="preserve"><value>[C6301][!!_Đôŵηļòâð čôήтêит ẅћęη τђè ãρρ îŝ ѓúηйìиģ_!!]</value></data><data name="HeaderDownloadWhenNotRunning" xml:space="preserve"><value>[EBBF3][!!_Đôẁйĺóãđ čôиţęήţ ẁħêη ťĥè âρр îśη'ť řùηйíηģ_!!]</value></data><data name="HeaderDownloadWifi" xml:space="preserve"><value>[448E0][!!_Òήłŷ ďôẃηłõãð ôи ẃįƒį_!!]</value></data><data name="HeaderEmailAddress" xml:space="preserve"><value>[B5B28][!!_Êmáìł àđďѓéšş_!!]</value></data><data name="HeaderGeneral" xml:space="preserve"><value>[54088][!!_ĢÈŃÊЃÁĻ_!!]</value></data><data name="HeaderItemsToShow" xml:space="preserve"><value>[4A981][!!_ÎŢÊМŠ ΤÔ ŚНÔẂ_!!]</value></data><data name="HeaderLink" xml:space="preserve"><value>[75819][!!_Ľįйĸ (Ŗêqµįŕêđ)_!!]</value></data><data name="HeaderOffline" xml:space="preserve"><value>[46514][!!_Õ₣₣ĿĮŃĘ_!!]</value></data><data name="HeaderPassword" xml:space="preserve"><value>[11D89][!!_Рãšşẅóřð_!!]</value></data><data name="HeaderSortItemsBy" xml:space="preserve"><value>[77051][!!_ŜÓŔТ ĮŤÈΜŜ ΒЎ_!!]</value></data><data name="HeaderTags" xml:space="preserve"><value>[FDE27][!!_Ťáģŝ (ćõмmá śéρáŗáτêð)_!!]</value></data><data name="HeaderTile" xml:space="preserve"><value>[1582A][!!_ŤÌĿÈ_!!]</value></data><data name="HeaderTitle" xml:space="preserve"><value>[9528A][!!_Τíťļè_!!]</value></data><data name="HeaderTweetId" xml:space="preserve"><value>[29B89][!!_Τŵèêт ÍÐ_!!]</value></data><data name="HeaderUsername" xml:space="preserve"><value>[25262][!!_Ùśêŗиàмê_!!]</value></data><data name="HeaderWhatToSearch" xml:space="preserve"><value>[39F2E][!!_Ŵħâţ тò šéàѓćђ_!!]</value></data><data name="LabelAbout" xml:space="preserve"><value>[61CA1][!!_àвóûт_!!]</value></data><data name="LabelAddLink" xml:space="preserve"><value>[A066E][!!_ãďð ĺîиĸ_!!]</value></data><data name="LabelArticles" xml:space="preserve"><value>[0DAE6][!!_àѓтîċľéś_!!]</value></data><data name="LabelBox" xml:space="preserve"><value>[A68C6][!!_Ьôх_!!]</value></data><data name="LabelClearCache" xml:space="preserve"><value>[BFFDE][!!_ćĺèãŕ čáċћè_!!]</value></data><data name="LabelClearOfflineFiles" xml:space="preserve"><value>[8061E][!!_čļęář ôƒƒĺįиé ƒîłêŝ_!!]</value></data><data name="LabelConnectWithPocket" xml:space="preserve"><value>[E1E12][!!_ćõήηęčť ẅîτн Þõćĸèт_!!]</value></data><data name="LabelCreateNewUser" xml:space="preserve"><value>[7DAA0][!!_ċŕéâţé ηèẁ úśéŕ_!!]</value></data><data name="LabelDeletingPrompt" xml:space="preserve"><value>[2D658][!!_Ðôή'т рѓòмþţ ẃħèй đêļęţìήĝ íţêмş_!!]</value></data><data name="LabelEmptyContentArchived" xml:space="preserve"><value>[F1AB6][!!_Ňõ ářčђįνéð îтémŝ ћêŗé_!!]</value></data><data name="LabelEmptyContentQueued" xml:space="preserve"><value>[DE258][!!_Ńó qµêúéð îтémş ħêѓę_!!]</value></data><data name="LabelEmptySearchResults" xml:space="preserve"><value>[3ABB0][!!_Ňõ ìτèmš ƒõûήď_!!]</value></data><data name="LabelFinished" xml:space="preserve"><value>[BC00F][!!_ƒìиîšћéð_!!]</value></data><data name="LabelJustifyArticleContent" xml:space="preserve"><value>[7E3B5][!!_Ĵùŝţįƒў ãŕťîĉĺê ĉôηтèήţ_!!]</value></data><data name="LabelLarge" xml:space="preserve"><value>[B0733][!!_ĺâŗġê_!!]</value></data><data name="LabelList" xml:space="preserve"><value>[18E1A][!!_Ĺíśτ_!!]</value></data><data name="LabelLogin" xml:space="preserve"><value>[52980][!!_ľõġįи_!!]</value></data><data name="LabelLoginText" xml:space="preserve"><value>[DB28F][!!_Íή óřðèŗ ţó ûŝè τнíš àþр, ÿóµ мµşτ śîġи îηťò Уòûŗ Рóćĸęţ ãċćòúήţ, ìƒ ўòµ đòи'т ђáνè óйé, рĺéãšê ĉĺìċќ òиê õƒ ţђè śíğи µρ ôрťíõиś._!!]</value></data><data name="LabelMedium" xml:space="preserve"><value>[2411F][!!_mêðíûm_!!]</value></data><data name="LabelNotArticle" xml:space="preserve"><value>[F4E85][!!_Τђįŝ ðõéşη'τ àþþèãř τô вé àи âѓтîćľê šó мîģħť иóť ðîşрļáў рѓõрęѓłў._!!]</value></data><data name="LabelOffline" xml:space="preserve"><value>[B46F9][!!_õƒƒłíήé_!!]</value></data><data name="LabelOfflineBackground" xml:space="preserve"><value>[6923B][!!_Śîmįĺãŗľÿ, ẅę ẃôùļď áĺŝò łìĸè ţò ďóẁηľõâđ čõиτéητ ẁђìļè ťħê àþр îŝ ŕúийíηġ._!!]</value></data><data name="LabelOfflineBestExperience" xml:space="preserve"><value>[EFA7A][!!_Įи õŗďéř τó ğįνè тħè вèşт õƒƒļįήè ê×ρéřìéйĉé, îţ ĉâи Бê ьéšţ тõ нàνê šòмê ôƒ ўôúŕ âřţîćĺéş ðõẅйĺõãđêđ èνèй ẁђęи тĥę âþρ įšи'ť ѓûηиíηğ._!!]</value></data><data name="LabelOfflineSettings" xml:space="preserve"><value>[9F780][!!_Àłł ôƒ тħêśé ċáй вè ċħáйĝéď ļàтèř îй τĥé ãρр šéττįηĝš._!!]</value></data><data name="LabelOfflineWifi" xml:space="preserve"><value>[26DB1][!!_Şòмê âŕťìċłêś máÿ ћàνê á łóт òƒ íмãğêş, ъéćãûšè óƒ ţħîş, ŷõù мãў òήĺУ ẅáйт тó ðòẃήľòãð òƒƒļíйê čòитéήτ ẅђèη ĉôиηéčτêđ ťò à ŵíƒí ćóήηęċτîòη._!!]</value></data><data name="LabelPocketTerms" xml:space="preserve"><value>[55516][!!_Ρôĉќéţ ţęřmś òƒ şéŗνįċê_!!]</value></data><data name="LabelRateApp" xml:space="preserve"><value>[D1301][!!_řâţê ţĥíś âρρ_!!]</value></data><data name="LabelRefreshWhenAppOpens" xml:space="preserve"><value>[4A322][!!_Ŕęƒŕęśђ ẅнęй áρþ ôþéиś_!!]</value></data><data name="LabelSearch" xml:space="preserve"><value>[D7404][!!_šéâŕćĥ_!!]</value></data><data name="LabelSearchInArticles" xml:space="preserve"><value>[46823][!!_Şèãřċћ îη àřтìčľę łìήĸš_!!]</value></data><data name="LabelSendLogs" xml:space="preserve"><value>[37556][!!_şéиð ĺòģŝ_!!]</value></data><data name="LabelSettings" xml:space="preserve"><value>[FE05D][!!_šêτťįηĝš_!!]</value></data><data name="LabelShowCountsOnTiles" xml:space="preserve"><value>[F96E7][!!_Śĥòẁ ĉõúηтŝ ôй τíłêś_!!]</value></data><data name="LabelSignUpFacebook" xml:space="preserve"><value>[4F80D][!!_ĵõįη иõẃ µśìйġ ₣àĉèъóòķ_!!]</value></data><data name="LabelSignUpManually" xml:space="preserve"><value>[43019][!!_Şìĝη ùþ мáйùãłļУ_!!]</value></data><data name="LabelSignUpText" xml:space="preserve"><value>[53BC7][!!_Ċļíćķ õиę óƒ ťĥé τẁó óρţįõиŝ вęļõẅ тò čřéâτę ŷõûŗ àčćòµиť ẁťįћ Ρõćкéт_!!]</value></data><data name="LabelSmall" xml:space="preserve"><value>[05762][!!_śмâłľ_!!]</value></data><data name="LabelTags" xml:space="preserve"><value>[2D040][!!_тàğŝ_!!]</value></data><data name="LabelTechSupport" xml:space="preserve"><value>[2294A][!!_тéċĥйíĉãľ şúþρôŗт/ƒéęðБâĉк émãíļ_!!]</value></data><data name="WatermarkEmailAddress" xml:space="preserve"><value>[E7281][!!_éηтéŗ âи ęmáîľ àđđřęśś..._!!]</value></data><data name="WatermarkEnterLink" xml:space="preserve"><value>[C5F24][!!_éηťèŗ łíйк..._!!]</value></data><data name="WatermarkEnterTags" xml:space="preserve"><value>[CF4BE][!!_éήţèŗ тàğš..._!!]</value></data><data name="WatermarkEnterTitle" xml:space="preserve"><value>[5E4B5][!!_êηтęѓ ţįťļę..._!!]</value></data><data name="WatermarkEnterTweetId" xml:space="preserve"><value>[1EBBB][!!_êήţèŗ τẅéêţ ìď..._!!]</value></data><data name="WatermarkPassword" xml:space="preserve"><value>[9CAAA][!!_ęήťéř á рãŝšŵòŕđ..._!!]</value></data><data name="WatermarkSearchInArticles" xml:space="preserve"><value>[66D7B][!!_ŝęàřčђ įй ťįтĺèş áиď ľįηķş..._!!]</value></data><data name="WatermarkSearchInTags" xml:space="preserve"><value>[F5FCE][!!_śéàŗĉĥ įй ťâģš..._!!]</value></data><data name="WatermarkUsername" xml:space="preserve"><value>[817D7][!!_êйтéŕ ã úŝęřиàмè..._!!]</value></data><data name="ErrorInvalidLink" xml:space="preserve"><value>[1F313][!!_Îйνãłíð ĺìηķ, ρľęâšę ţřÿ âğàíй_!!]</value></data><data name="ErrorAccountFailure" xml:space="preserve"><value>[F46A8][!!_Ûηƒõѓţùйáťęľў ўòµŗ ãĉćôùйţ ẃãšή'т ċŕęâţéď ãτ ţĥíš тîmê, þĺęàśê ťŕŷ ãģáîи ļàτèŗ._!!]</value></data><data name="ErrorCreatingAccount" xml:space="preserve"><value>[3A9D9][!!_Þřôвłêм čřęâтîηğ ùśęѓ, рļéáśę ťŗÿ âģãíй ĺàťêř_!!]</value></data><data name="ErrorFacebookToken" xml:space="preserve"><value>[1A5D2][!!_Ûήƒòŕţµйáţèĺý ţĥãţ ₣ãċęьôõк âĉćèşş ţòĸęи ђâś é×þìŕęð_!!]</value></data><data name="ErrorTitle" xml:space="preserve"><value>[FA745][!!_Éѓŗõŕ_!!]</value></data><data name="InfoImageSaved" xml:space="preserve"><value>[97B5F][!!_Îмáğè ŝáνêď_!!]</value></data><data name="InfoSuccessfulAccount" xml:space="preserve"><value>[FBA74][!!_Âċċòûйт čŗèáťéď šµččêŝşƒµĺļУ, ŷôû ẁįłĺ ήòẅ йèęď ťô νęřìƒŷ ўóµŕ êmãíĺ àđďŗéśś. Ņóт đóíηġ şó mãÿ ļíмìт ħòẃ мùĉĥ ўóµ čãй ďõ ìи τнè âρр ƒŗòм ţђìŝ ρòíήт. Óηčê ţнãτ'š đóηé, рļéáşé ĉóήήéćτ ťħę ãрр ťõ Þôĉкęţ_!!]</value></data><data name="LabelAllItems" xml:space="preserve"><value>[B4CA8][!!_áľĺ įτêмś_!!]</value></data><data name="LabelAlmostDone" xml:space="preserve"><value>[322BA][!!_Âļмòŝт тђéŕę, {0}, јúşť à ƒèẁ môŗé ďéτàįľś._!!]</value></data><data name="LabelAtoZ" xml:space="preserve"><value>[B35E5][!!_ã-ź_!!]</value></data><data name="LabelCancel" xml:space="preserve"><value>[4D4C3][!!_ćãиčéļ_!!]</value></data><data name="LabelImages" xml:space="preserve"><value>[A65FA][!!_ìmãġèş_!!]</value></data><data name="LabelNewest" xml:space="preserve"><value>[5A254][!!_ηęŵéśţ_!!]</value></data><data name="LabelNo" xml:space="preserve"><value>[7A5A7][!!_йò_!!]</value></data><data name="LabelOldest" xml:space="preserve"><value>[011F6][!!_õļðèŝτ_!!]</value></data><data name="LabelVideos" xml:space="preserve"><value>[3E9D7][!!_νíđêóš_!!]</value></data><data name="LabelYes" xml:space="preserve"><value>[76B7F][!!_ýęş_!!]</value></data><data name="LabelZtoA" xml:space="preserve"><value>[E8175][!!_ż-ã_!!]</value></data><data name="MessageAccountTitle" xml:space="preserve"><value>[1314A][!!_Àććòùйť ċѓéàťìóη_!!]</value></data><data name="MessageDeleteItem" xml:space="preserve"><value>[4E536][!!_Àŗê ýõú śµŗê ýòù ẅìśħ тò đęĺęťę τħįŝ ìťéм ƒŗôm ўõûѓ Рòċķéţ?_!!]</value></data><data name="MessageTitleAddALink" xml:space="preserve"><value>[BC4E2][!!_Àðð à ļîήк_!!]</value></data><data name="MessageTitleAreYouSure" xml:space="preserve"><value>[A4DF9][!!_Ãřê ŷõú şûŗé?_!!]</value></data><data name="SysTrayAdding" xml:space="preserve"><value>[26B3F][!!_Áðđîйğ..._!!]</value></data><data name="SysTrayArchiving" xml:space="preserve"><value>[F95C5][!!_Âřćћîνíиĝ..._!!]</value></data><data name="SysTrayDeleting" xml:space="preserve"><value>[B2EA2][!!_Ðêĺéτìήĝ..._!!]</value></data><data name="SysTrayGettingAccessToken" xml:space="preserve"><value>[EFBCE][!!_Ġéťťîйĝ ўõúѓ ãčċêşş τòќêή..._!!]</value></data><data name="SysTrayGettingArticle" xml:space="preserve"><value>[44708][!!_Ģęτтíйĝ âѓťíĉłè..._!!]</value></data><data name="SysTrayRegisteringNewAccount" xml:space="preserve"><value>[0583A][!!_Řêģįşтęřįηğ йèŵ ãčćõµήţ..._!!]</value></data><data name="SysTrayRemovingFromArchive" xml:space="preserve"><value>[06550][!!_Ѓêмôνìиğ ƒѓôm àŗċħìνé..._!!]</value></data><data name="SysTraySendingToPocket" xml:space="preserve"><value>[6CC32][!!_Šéήðįηğ ŷòù ţô Ρõčķęτ..._!!]</value></data><data name="SysTrayTalkingToFacebook" xml:space="preserve"><value>[AC514][!!_Ţáĺķíήĝ τó ₣áċèБõòķ_!!]</value></data><data name="SysTrayTalkingToPocket" xml:space="preserve"><value>[5341D][!!_Ρřéрãřįηğ тõ ťãľк ţó Рóċķéτ..._!!]</value></data><data name="LabelAgentDescription" xml:space="preserve"><value>[BCFF2][!!_Ďóẁηĺõãđş ãήў рèйđįйĝ ãŕţìćľęş ìй τĥę ьàčĸģřõùиđ._!!]</value></data><data name="LabelAppShortDescription" xml:space="preserve"><value>[2B8B5][!!_Šqûìŗѓêľ îş ã Þôćķéť čļîęйτ (ƒõŗмèŗľŷ ЃèãďÍтĹâτéŕ) ƒôѓ Ẁîηđòẅš Ρнôиę 8_!!]</value></data><data name="LabelResultsFor" xml:space="preserve"><value>[9A48C][!!_řęŝúłτş ƒòŕ {0}_!!]</value></data><data name="MessageCacheCleared" xml:space="preserve"><value>[C27F4][!!_Čáċĥê ċļęãŕèð_!!]</value></data><data name="MessageDeleteOfflineFiles" xml:space="preserve"><value>[CF52C][!!_Ãѓę ўóµ šµřè ŷòù ẁìšħ ţó ďéĺęтè τнê õƒƒļìиę ƒíĺęš?_!!]</value></data><data name="MessageOfflineFilesClear" xml:space="preserve"><value>[40A23][!!_Òƒƒłîήé ƒįĺêş ćĺêâřêď_!!]</value></data><data name="MessageTagsUpdated" xml:space="preserve"><value>[F42DF][!!_Ţâĝš ùрðàťèđ_!!]</value></data><data name="SysTrayGettingArchivedItems" xml:space="preserve"><value>[59D6C][!!_Ĝêťтîйġ âŕčнìνêď ìτèmš..._!!]</value></data><data name="SysTrayGettingQueuedItems" xml:space="preserve"><value>[32C19][!!_Ĝęťţîηğ qûêùéð ìтéмŝ..._!!]</value></data><data name="SysTrayLoadingItems" xml:space="preserve"><value>[9F952][!!_Ĺòáďìηĝ ìтęmş..._!!]</value></data><data name="SysTraypUpdatingTags" xml:space="preserve"><value>[85751][!!_Üþðàţíηģ ťâģš..._!!]</value></data><data name="SysTrayRestoring" xml:space="preserve"><value>[A0D14][!!_Ŕęŝťõѓįηĝ..._!!]</value></data><data name="SysTraySearching" xml:space="preserve"><value>[6D2E4][!!_Śéâřčħįήġ..._!!]</value></data><data name="SysTraySorting" xml:space="preserve"><value>[6276A][!!_Šõѓтìήġ..._!!]</value></data></root>

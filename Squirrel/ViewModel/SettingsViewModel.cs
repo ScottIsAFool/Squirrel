@@ -60,7 +60,7 @@ namespace Squirrel.ViewModel
                     await CacheService.Current.ClearAllItems();
                     Log.Info("Cache cleared");
                     Messenger.Default.Send(new NotificationMessage(Constants.Messages.ClearCacheMsg));
-                    App.ShowMessage("Cache cleared");
+                    App.ShowMessage(AppResources.MessageCacheCleared);
                 });
             }
         }
@@ -71,11 +71,11 @@ namespace Squirrel.ViewModel
             {
                 return new RelayCommand(async () =>
                 {
-                    var result = MessageBox.Show("Are you sure you wish to delete the offline files?", "Are you sure?", MessageBoxButton.OKCancel);
+                    var result = MessageBox.Show(AppResources.MessageDeleteOfflineFiles, AppResources.MessageTitleAreYouSure, MessageBoxButton.OKCancel);
                     if (result == MessageBoxResult.OK)
                     {
                         await OfflineService.Current.ClearOfflineFiles();
-                        App.ShowMessage("Offline files cleared");
+                        App.ShowMessage(AppResources.MessageOfflineFilesClear);
                         Log.Info("Offline files cleared");
                     }
                 });
@@ -88,10 +88,10 @@ namespace Squirrel.ViewModel
             {
                 return new Dictionary<string, SortType>
                 {
-                    {"Title (a-z)", SortType.TitleAscending},
-                    {"Title (z-a)", SortType.TitleDescending},
-                    {"Date (oldest first)", SortType.DateAscending},
-                    {"Date (newest first)", SortType.DateDescending},
+                    {AppResources.LabelAtoZ, SortType.TitleAscending},
+                    {AppResources.LabelZtoA, SortType.TitleDescending},
+                    {AppResources.LabelOldest, SortType.DateAscending},
+                    {AppResources.LabelNewest, SortType.DateDescending},
                 };
             }
         }
@@ -151,7 +151,7 @@ namespace Squirrel.ViewModel
             {
                 var agent = new PeriodicTask(Constants.ScheduledTaskName)
                 {
-                    Description = "Downloads any pending articles in the background."
+                    Description = AppResources.LabelAgentDescription
                 };
 
                 Log.Info("Adding agent to scheduled list");

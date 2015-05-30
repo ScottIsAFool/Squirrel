@@ -117,48 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ResourceFlowDirection" xml:space="preserve">
-    <value>LeftToRight</value>
-    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
-  </data>
-  <data name="ResourceLanguage" xml:space="preserve">
-    <value>en-US</value>
-    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
-  </data>
-  
-  
-  
-  <data name="LabelAuthorisingHeader" xml:space="preserve">
-    <value>authorizing</value>
-  </data>
-  <data name="LabelNoFavouritesAdded" xml:space="preserve">
-    <value>No favorites have been added</value>
-  </data>
-  <data name="SysTrayGettingFavourites" xml:space="preserve">
-    <value>Getting favorites...</value>
-  </data>
-  <data name="LabelFavourite" xml:space="preserve">
-    <value>favorite</value>
-  </data>
-  <data name="LabelUnfavourite" xml:space="preserve">
-    <value>unfavorite</value>
-  </data>
-  <data name="SysTrayAddingToFavourites" xml:space="preserve">
-    <value>Adding to favorites...</value>
-  </data>
-  <data name="SysTrayRemovingFromFavourites" xml:space="preserve">
-    <value>Removing from favorites...</value>
-  </data>
-  <data name="LabelPhoneAccentColour" xml:space="preserve">
-    <value>Phone accent color</value>
-  </data>
-  <data name="LabelSquirrelAccentColour" xml:space="preserve">
-    <value>Squirrel accent color (yellow)</value>
-  </data>
-  <data name="LabelTileColour" xml:space="preserve">
-    <value>Tile color</value>
-  </data>
-  <data name="LabelFavourites" xml:space="preserve">
-    <value>Favorites</value>
+  <data name="StoreDescription" xml:space="preserve">
+    <value>Squirrel is a fully featured Pocket (formerly Read It Later) client for Windows Phone 8.
+
+Trial version and paid version are *identical*, paid just shows support for the app.
+
+Features:
+- Offline reading
+- Manage articles (delete/archive/favorite)
+- Manage article tags
+- Live tile showing article counts
+- Different layouts for showing your articles (list/box)
+- Customizable article viewing: change font size, theme, justified text
+- Have Squirrel read out the article to you.
+
+FEEDBACK
+We love feedback, and it's what helps make the app better. If you have any feedback, do please contact us by email squirrelapp@outlook.com or on twitter @squirrelWP. 
+
+RATINGS
+We *really* love ratings, however, 1* ratings give us sad faces. If you feel that your 1* rating is justified, do please get in touch with us above and we can try and help resolve whatever issues you're having.</value>
   </data>
 </root>

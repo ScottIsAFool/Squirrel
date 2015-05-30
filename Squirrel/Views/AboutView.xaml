@@ -46,7 +46,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <controls:SquirrelLogoHeader Text="about" />
+        <controls:SquirrelLogoHeader Text="{Binding LocalizedResources.LabelAbout, Source={StaticResource LocalizedStrings}}" />
 
         <Grid x:Name="ContentPanel"
               Grid.Row="1"
@@ -77,7 +77,7 @@
                        Foreground="{StaticResource PhoneSubtleBrush}"
                        FontSize="{StaticResource PhoneFontSizeNormal}" />
             <HyperlinkButton Grid.Row="2"
-                             Content="technical support/feedback email"
+                             Content="{Binding LocalizedResources.LabelTechSupport, Source={StaticResource LocalizedStrings}}"
                              x:Name="SupportButton"
                              Margin="0,12,0,0"
                              HorizontalAlignment="Left"
@@ -85,7 +85,7 @@
                              FontSize="{StaticResource PhoneFontSizeNormal}"
                              Click="SupportButton_OnClick"/>
             <HyperlinkButton Grid.Row="3"
-                             Content="rate this app"
+                             Content="{Binding LocalizedResources.LabelRateApp, Source={StaticResource LocalizedStrings}}"
                              x:Name="RateAppButton"
                              Margin="0,12,0,0"
                              HorizontalAlignment="Left"
@@ -93,7 +93,7 @@
                              FontSize="{StaticResource PhoneFontSizeNormal}"
                              Click="RateAppButton_OnClick" />
             <HyperlinkButton Grid.Row="4"
-                             Content="send logs"
+                             Content="{Binding LocalizedResources.LabelSendLogs, Source={StaticResource LocalizedStrings}}"
                              x:Name="SendLogsButton"
                              Margin="0,12,0,0"
                              HorizontalAlignment="Left"

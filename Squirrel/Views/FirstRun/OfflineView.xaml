@@ -55,7 +55,7 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <controls:SquirrelLogoHeader Text="offline" />
+        <controls:SquirrelLogoHeader Text="{Binding LocalizedResources.LabelOffline, Source={StaticResource LocalizedStrings}}" />
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel"
@@ -65,22 +65,22 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <StackPanel Margin="12,0,12,0">
-                <TextBlock Text="In order to give the best offline experience, it can be best to have some of your articles downloaded even when the app isn't running."
+                <TextBlock Text="{Binding LocalizedResources.LabelOfflineBestExperience, Source={StaticResource LocalizedStrings}}"
                            Style="{StaticResource PhoneTextNormalStyle}"
                            TextWrapping="Wrap" />
-                <telerikPrimitives:RadToggleSwitch Header="Download content when the app isn't running"
+                <telerikPrimitives:RadToggleSwitch Header="{Binding LocalizedResources.HeaderDownloadWhenNotRunning, Source={StaticResource LocalizedStrings}}"
                                                    IsChecked="{Binding DownloadFilesWhenNotRunning, Mode=TwoWay}" />
-                <TextBlock Text="Similarly, we would also like to download content while the app is running."
+                <TextBlock Text="{Binding LocalizedResources.LabelOfflineBackground, Source={StaticResource LocalizedStrings}}"
                            Style="{StaticResource PhoneTextNormalStyle}"
                            TextWrapping="Wrap" />
-                <telerikPrimitives:RadToggleSwitch Header="Download content when the app is running"
+                <telerikPrimitives:RadToggleSwitch Header="{Binding LocalizedResources.HeaderDownloadInBackground, Source={StaticResource LocalizedStrings}}"
                                                    IsChecked="{Binding DownloadFilesInBackground, Mode=TwoWay}" />
-                <TextBlock Text="Some articles may have a lot of images, because of this, you may only want to download offline content when connected to a wifi"
+                <TextBlock Text="{Binding LocalizedResources.LabelOfflineWifi, Source={StaticResource LocalizedStrings}}"
                            Style="{StaticResource PhoneTextNormalStyle}"
                            TextWrapping="Wrap" />
-                <telerikPrimitives:RadToggleSwitch Header="Only download on wifi"
+                <telerikPrimitives:RadToggleSwitch Header="{Binding LocalizedResources.HeaderDownloadWifi, Source={StaticResource LocalizedStrings}}"
                                                    IsChecked="{Binding OnlyDownloadOnWifi, Mode=TwoWay}" />
-                <TextBlock Text="All of these can be changed later in the app settings"
+                <TextBlock Text="{Binding LocalizedResources.LabelOfflineSettings, Source={StaticResource LocalizedStrings}}"
                            Style="{StaticResource PhoneTextNormalStyle}"
                            TextWrapping="Wrap"/>
             </StackPanel>
@@ -88,7 +88,7 @@
                 <Grid Grid.Row="1"
                       Background="{StaticResource AppBarBrush}"
                       VerticalAlignment="Bottom">
-                    <Button Content="finished"
+                <Button Content="{Binding LocalizedResources.LabelFinished, Source={StaticResource LocalizedStrings}}"
                             Foreground="{StaticResource SquirrelBackgroundBrush}"
                             BorderBrush="{StaticResource SquirrelBackgroundBrush}"
                             HorizontalAlignment="Right"

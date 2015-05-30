@@ -226,7 +226,7 @@
               Grid.Row="1"
               Margin="12,0">
             <StackPanel Orientation="Vertical">
-                <TextBlock Text="In order to use this app, you must sign into your Pocket account, if you don't have one, please click one of the sign up options."
+                <TextBlock Text="{Binding LocalizedResources.LabelLoginText, Source={StaticResource LocalizedStrings}}"
                            TextWrapping="Wrap"
                            Style="{StaticResource PhoneTextNormalStyle}" />
                 <Button Background="White"
@@ -239,7 +239,7 @@
                             <Image Source="/Assets/PocketLogo.png"
                                    Height="30"
                                    Margin="0,0,12,0" />
-                            <TextBlock Text="connect with Pocket" />
+                            <TextBlock Text="{Binding LocalizedResources.LabelConnectWithPocket, Source={StaticResource LocalizedStrings}}" />
                         </StackPanel>
                     </Button.Content>
                 </Button>
@@ -249,10 +249,10 @@
         <Grid Grid.Row="2"
               Margin="12,0">
             <StackPanel Orientation="Vertical">
-                <TextBlock Text="Click one of the two options below to create your account with Pocket"
+                <TextBlock Text="{Binding LocalizedResources.LabelSignUpText, Source={StaticResource LocalizedStrings}}"
                            TextWrapping="Wrap"
                            Style="{StaticResource PhoneTextNormalStyle}" />
-                <HyperlinkButton Content="Sign up manually"
+                <HyperlinkButton Content="{Binding LocalizedResources.LabelSignUpManually, Source={StaticResource LocalizedStrings}}"
                                  HorizontalAlignment="Left"
                                  NavigateUri="/Views/Login/NewUserView.xaml"
                                  Margin="0,24" />
@@ -273,14 +273,14 @@
                         <Image Source="/Assets/FacebookWhite.png"
                                Width="35"
                                Margin="0,0,12,0" />
-                        <TextBlock Text="join now using Facebook"
+                        <TextBlock Text="{Binding LocalizedResources.LabelSignUpFacebook, Source={StaticResource LocalizedStrings}}"
                                    VerticalAlignment="Center"
                                    FontFamily="Segoe WP Semibold"
                                    FontSize="21.333" />
                     </StackPanel>
                 </Button>
             </StackPanel>
-            <HyperlinkButton Content="Pocket terms of service"
+            <HyperlinkButton Content="{Binding LocalizedResources.LabelPocketTerms, Source={StaticResource LocalizedStrings}}"
                              HorizontalAlignment="Left"
                              VerticalAlignment="Bottom"
                              Margin="0,0,0,24"
